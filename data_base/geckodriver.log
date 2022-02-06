@@ -199,3 +199,69 @@ JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1643696853484	geckodriver	INFO	Listening on 127.0.0.1:50921
+1643696856540	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50922" "-no-remote" "-profile" "C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofileGJj88v"
+1643696857003	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofileGJj88v\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50922/devtools/browser/d46aee2a-0f90-41cb-8dd9-a7400b8bacc1
+1643696860115	Marionette	INFO	Listening on port 50928
+1643696860250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1643699964305	Marionette	INFO	Stopped listening on port 50928
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1643699997067	geckodriver	INFO	Listening on 127.0.0.1:57766
+1643700000143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57767" "-no-remote" "-profile" "C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofileDbt2aM"
+1643700000591	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofileDbt2aM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57767/devtools/browser/c9cc4378-ca48-4234-9b9f-f65faa1855b4
+1643700002617	Marionette	INFO	Listening on port 57774
+1643700002871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643700075691	Marionette	INFO	Stopped listening on port 57771643700075800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58003" "-no-remote" "-profile" "C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofileKmzsk6"
+1643700076090	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofileKmzsk6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58003/devtools/browser/6c41fc77-a9e7-4ae3-a5a0-6735bc4594eb
+1643700079717	Marionette	INFO	Listening on port 58014
+1643700079978	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643702828351	Marionette	INFO	Stopped listening on port 58014
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+[Parent 17012, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1643702830186	geckodriver	INFO	Listening on 127.0.0.1:53987
+1643702833308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53988" "-no-remote" "-profile" "C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofileAFFIZL"
+1643702834164	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofileAFFIZL\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53988/devtools/browser/004b6662-ec5d-494f-98b9-50e86855261a
+1643702838144	Marionette	INFO	Listening on port 53993
+1643702838678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643836763970	geckodriver	INFO	Listening on 127.0.0.1:51801
+1643836767034	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51802" "-no-remote" "-profile" "C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofilesbH8yp"
+1643836767919	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\edwar\\AppData\\Local\\Temp\\rust_mozprofilesbH8yp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51802/devtools/browser/bc062525-6935-4bed-99ff-036524402e91
+1643836770613	Marionette	INFO	Listening on port 51807
+1643836770766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1643876094533	Marionette	INFO	Stopped listening on port 51807
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 6956, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
