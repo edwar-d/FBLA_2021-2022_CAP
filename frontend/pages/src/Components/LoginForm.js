@@ -6,11 +6,12 @@ import "./LoginForm.css";
 function LoginForm(){
     return(
         <form>
-            <div className="form-inner"></div>
+            <div className="form-inner">
             <h2> Find the perfect location</h2>
             <div className="form-group">
                 <label htmlFor="name"> Cost : </label>
                 <input type="text" name="cost" id="cost"/>
+            </div>
                 <div className="form-group">
                     <label htmlFor="Rating">Rate : </label>
                     <input type="text" name="rating" id="rating"/>
