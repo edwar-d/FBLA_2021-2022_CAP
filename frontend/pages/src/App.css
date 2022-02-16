@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 .image {
-  margin-top: 0px;
-  margin-left: 280px;
+  margin-top: -5px;
+  margin-left: 250px;
   font-size: 30;
   width: 25vw;
   height: 50vh;
@@ -14,7 +14,7 @@
 
 .App{
   margin-top: -300px;
-  margin-left: 200px;
+  margin-left: 100px;
   font-size: 30;
   width: 25vw;
   height: 50vh;
