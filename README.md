@@ -1,18 +1,29 @@
-# FBLA_2021-2022_CAP
-FBLA CAP comp 2021-2022
+## Coding and Programming Tourist Attraction Application ##
+
+Arnav Chakravarthy, Kartik Joshi, Edward Lu, Homestead High School (10th)
 
 
-```yaml
+### Installation Instructions: ###
 
-This year’s (2021-22) event topic is: 
-You have been hired by your state or local area’s tourism bureau to develop a program that suggests attractions:
-  (
-    can be tourist attractions, 
-    restaurants, 
-    shopping, 
-    things to do, etc.
-   ) to potential visitors. 
-Your program will allow users to search for attractions in the area based on desired attributes, such as location, type of attraction, and amenities. 
-Your program must include at least 50 attractions, and users must be able to define at least five desired attributes to search for an attraction.
+[ADD]
 
-```
+### Description: ###
+
+This application acts as a search and suggest apparatus for users to find attractions in the Bay Area. Users can search for a specific location from a database of 700 attractions, or use search filters to help narrow down their desired location. As they search/narrow their filters, the grid of results on the bottom refreshes to match their queries. Each attraction card has relevant output attributes linked to it, such as: website link, phone number, rating score, number of reviews, times open, etc.
+
+### Features: ###
+- Login system that uses Firebase Authentication
+- Five-question quiz generated from a Firebase Cloud Firestore database
+- Download quiz results as a PDF
+- View quiz statistics for a user
+  - average score
+  - highest score
+  - lowest score
+
+### Future Enhancements: ###
+
+This app can be enhanced by adding user accounts, such that users can save preferred locations. We can also add direction links on Google Maps, so that users can open directions to the location in one click. We can also vertically scale our database of attractions, by expanding to different regions in California using our Python web-scraper.
+
+### Source Code Information: ###
+
+[ADD]
