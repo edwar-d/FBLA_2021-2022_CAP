@@ -56,11 +56,10 @@ def Call(request):
 #            db.append(attractionToDictionary(id),indent=4))
 
 #        print(db)
-        db = json.dumps( db , indent=4)
         open('render_data.json', 'w').close()
         
-        with open('render_data.json', 'w') as outfile:
-            outfile.write(db)
+        with open('render_data.json', 'w') as f:
+            json.dump(db, f)
 
         # print(db)
         
@@ -74,6 +73,13 @@ def Call(request):
         return JsonResponse(recieved_serializer.errors, status=status.HTTP_400_BAD_REQUEST)        
 
 
+#"D:\documents\GitHub\FBLA_2021-2022_CAP\tourism_rest\backend\render_data.json"
+
+def json_rd(request):
+    with open("render_data.json") as jd:
+        db = json.load(jd, )
+
+    return JsonResponse(db, safe=False)
 
 class InputView(viewsets.ModelViewSet):
     serializer_class = InputSerializer
