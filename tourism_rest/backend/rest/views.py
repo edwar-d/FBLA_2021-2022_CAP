@@ -1,6 +1,7 @@
 from concurrent.futures import process
 import json
 from glob import glob
+from textwrap import indent
 
 from django.views import View
 from django.shortcuts import render
@@ -16,7 +17,7 @@ from rest_framework import viewsets
 
 from .serializers import InputSerializer, AttractionSerializer
 from .models import InputField, Attractions
-from utils.process import Process#, IDtoJson
+from utils.process import Process, attractionToDictionary
 
 dT = {}
 
@@ -47,11 +48,22 @@ def Call(request):
         print("--------------------------")
 
         ids = Process(recieved)
-        print(ids)
-#        IDtoJson(ids)
-        
+        db = []
 
-        return HttpResponse(recieved_json, content_type='application/json')
+        for id in ids:
+            _  = json.dumps( attractionToDictionary(id) )
+            db.append(_)
+#            db.append(attractionToDictionary(id),indent=4))
+
+        print(db)
+        # db = json.dumps( db , indent=4)
+        # print(type(db))
+        # with open('json_data.json', 'w') as outfile:
+        #     outfile.write(db)
+
+        # print(db)
+        
+        return HttpResponse(str(db), content_type='application/json')
 
 #        return HttpResponse(recieved, content_type='application/json')
 #        return JsonResponse(recieved_serializer.data, status=status.HTTP_201_CREATED) 

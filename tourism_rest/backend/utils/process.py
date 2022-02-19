@@ -1,3 +1,4 @@
+from attr import attr
 from rest.models import Attractions
 
 def Process(data):
@@ -18,7 +19,25 @@ def Process(data):
     return ids
 
 
-    
-# def IDtoJson(ids):
-#     attracion = Attractions.objects.get(pk=ids[0])
+def attractionToDictionary(id):
 
+    dictionary = {}
+    attraction = Attractions.objects.get(pk =id)
+
+    if attraction == None:
+        return None
+
+    dictionary["name"] = attraction.name
+    dictionary["type"] = attraction.type
+    dictionary["loc"] = attraction.loc
+    dictionary["website"] = attraction.website
+    dictionary["open_time"] = attraction.open_time
+    dictionary["address"] = attraction.address
+    dictionary["number"] = attraction.number
+    dictionary["reviews"] = str(attraction.reviews)
+    dictionary["star_rating"] = str(attraction.star_rating)
+
+    # if("\\u2026" in attraction.website):
+    #     if(attraction.website)
+
+    return dictionary

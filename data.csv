@@ -275,7 +275,7 @@ Ghirardelli Square,Zoos,"San Francisco, CA",http://www.ghirardellisq.com,11:00 A
 Crocker Galleria,Zoos,"San Francisco, CA",,10:00 AM - 6:00 PM,"50 Post St San Francisco, CA 94104",(415) 393-1505,93,3.5
 Japan Center,Zoos,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
 Metreon,Zoos,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Embarcadero Center,Zoos,"San Francisco, CA",http://www.embarcaderocenter.c…,10:00 AM - 7:00 PM,"1 Embarcadero Ctr San Francisco, CA 94111",(415) 772-0700,91,3.5
+Embarcadero Center,Zoos,"San Francisco, CA",http://www.embarcaderocenter.com,10:00 AM - 7:00 PM,"1 Embarcadero Ctr San Francisco, CA 94111",(415) 772-0700,91,3.5
 Nordstrom,Zoos,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
 Pier 39,Aquariums,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
 T-Mobile,Aquariums,"San Francisco, CA",https://www.t-mobile.com/store…,10:00 AM - 5:00 PM,"One Embarcadero Ctr Ste R1114 San Francisco, CA 94111",(415) 788-2670,42,3.5
@@ -287,9 +287,9 @@ Crocker Galleria,Aquariums,"San Francisco, CA",,10:00 AM - 6:00 PM,"50 Post St S
 Japan Center,Aquariums,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
 Metreon,Aquariums,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
 Nordstrom,Aquariums,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Embarcadero Center,Aquariums,"San Francisco, CA",http://www.embarcaderocenter.c…,10:00 AM - 7:00 PM,"1 Embarcadero Ctr San Francisco, CA 94111",(415) 772-0700,91,3.5
+Embarcadero Center,Aquariums,"San Francisco, CA",http://www.embarcaderocenter.com,10:00 AM - 7:00 PM,"1 Embarcadero Ctr San Francisco, CA 94111",(415) 772-0700,91,3.5
 Pier 39,Art Galleries,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-T-Mobile,Art Galleries,"San Francisco, CA",https://www.t-mobile.com/store…,10:00 AM - 5:00 PM,"One Embarcadero Ctr Ste R1114 San Francisco, CA 94111",(415) 788-2670,42,3.5
+T-Mobile,Art Galleries,"San Francisco, CA",https://www.t-mobile.com/store,10:00 AM - 5:00 PM,"One Embarcadero Ctr Ste R1114 San Francisco, CA 94111",(415) 788-2670,42,3.5
 Westfield San Francisco Centre,Art Galleries,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
 Union Square,Art Galleries,"San Francisco, CA",http://unionsquareshop.com/,,"333 Post St San Francisco, CA 94108",(415) 477-2610,50,4
 Northpoint Centre,Art Galleries,"San Francisco, CA",,,"350 Bay St San Francisco, CA 94133",,19,3.5
@@ -297,7 +297,7 @@ Ghirardelli Square,Art Galleries,"San Francisco, CA",http://www.ghirardellisq.co
 Crocker Galleria,Art Galleries,"San Francisco, CA",,10:00 AM - 6:00 PM,"50 Post St San Francisco, CA 94104",(415) 393-1505,93,3.5
 Japan Center,Art Galleries,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
 Metreon,Art Galleries,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Embarcadero Center,Art Galleries,"San Francisco, CA",http://www.embarcaderocenter.c…,10:00 AM - 7:00 PM,"1 Embarcadero Ctr San Francisco, CA 94111",(415) 772-0700,91,3.5
+Embarcadero Center,Art Galleries,"San Francisco, CA",http://www.embarcaderocenter.com,10:00 AM - 7:00 PM,"1 Embarcadero Ctr San Francisco, CA 94111",(415) 772-0700,91,3.5
 Nordstrom,Art Galleries,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
 Pier 39,Tourist Attractions,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
 T-Mobile,Tourist Attractions,"San Francisco, CA",https://www.t-mobile.com/store…,10:00 AM - 5:00 PM,"One Embarcadero Ctr Ste R1114 San Francisco, CA 94111",(415) 788-2670,42,3.5
@@ -313,7 +313,7 @@ Nordstrom,Tourist Attractions,"San Francisco, CA",https://shop.nordstrom.com,10:
 Jamaica Flaves,Restaurants,"Oakland, CA",http://www.jamaicaflaves.com,11:00 AM - 9:00 PM,"2353 E 12th St Oakland, CA 94601",(510) 988-2800,2,5
 Biryani Kabab,Restaurants,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
 Marica,Restaurants,"Oakland, CA",https://www.maricaoakland.com,4:00 PM - 9:00 PM,"5301 College Ave Oakland, CA 94618",(510) 985-8388,2249,4.5
-Limón,Restaurants,"Oakland, CA",https://www.limonrotisserie.co…,11:00 AM - 9:00 PM,"2450 Valdez St Oakland, CA 94612",(510) 808-7324,172,4.5
+Limón,Restaurants,"Oakland, CA",https://www.limonrotisserie.com,11:00 AM - 9:00 PM,"2450 Valdez St Oakland, CA 94612",(510) 808-7324,172,4.5
 Wood Tavern,Restaurants,"Oakland, CA",http://woodtavern.net/,11:30 AM - 9:00 PM,"6317 College Ave Oakland, CA 94618",(510) 654-6607,2034,4.5
 Kitchen Story,Restaurants,"Oakland, CA",https://www.kitchenstoryca.com,"9:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","5422 College Ave Oakland, CA 94618",(510) 922-9443,588,4
 Portal Oakland,Restaurants,"Oakland, CA",http://portaloakland.com,11:00 AM - 9:00 PM,"1611 2nd Ave Oakland, CA 94606",(510) 663-7678,1456,4
@@ -357,7 +357,7 @@ La Perla,Karaoke,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4
 Southern Cafe,Karaoke,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
 Paulista Brazilian Kitchen and Taproom,Karaoke,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
 Bombera,Karaoke,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-The Saint Sandwich Shop,Karaoke,"Oakland, CA",https://www.thesaintsandwichsh…,11:00 AM - 3:00 PM,"3016 Macarthur Blvd Oakland, CA 94602",(510) 479-3554,89,5
+The Saint Sandwich Shop,Karaoke,"Oakland, CA",https://www.thesaintsandwichsh,11:00 AM - 3:00 PM,"3016 Macarthur Blvd Oakland, CA 94602",(510) 479-3554,89,5
 Cafe Umami,Karaoke,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
 Pla Daek,Karaoke,"Oakland, CA",https://www.pladaek.com,"11:00 AM - 3:00 PM, 4:30 PM - 8:30 PM","4133 Piedmont Ave Oakland Piedmont, CA 94611",(510) 658-8491,87,4.5
 Marzano,Karaoke,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
@@ -366,8 +366,8 @@ Lakeshore Cafe,Malls,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00
 Biryani Kabab,Malls,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
 Wawa Thai Food,Malls,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
 La Perla,Malls,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Limón,Malls,"Oakland, CA",https://www.limonrotisserie.co…,11:00 AM - 9:00 PM,"2450 Valdez St Oakland, CA 94612",(510) 808-7324,172,4.5
-The Saint Sandwich Shop,Malls,"Oakland, CA",https://www.thesaintsandwichsh…,11:00 AM - 3:00 PM,"3016 Macarthur Blvd Oakland, CA 94602",(510) 479-3554,89,5
+Limón,Malls,"Oakland, CA",https://www.limonrotisserie.com,11:00 AM - 9:00 PM,"2450 Valdez St Oakland, CA 94612",(510) 808-7324,172,4.5
+The Saint Sandwich Shop,Malls,"Oakland, CA",https://www.thesaintsandwichsh,11:00 AM - 3:00 PM,"3016 Macarthur Blvd Oakland, CA 94602",(510) 479-3554,89,5
 Bombera,Malls,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
 Paulista Brazilian Kitchen and Taproom,Malls,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
 Southern Cafe,Malls,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
@@ -379,7 +379,7 @@ KFC,Amusement Parks,"Oakland, CA",https://www.kfc.com,11:00 AM - 9:00 PM,"3734 M
 Lakeshore Cafe,Amusement Parks,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
 Wawa Thai Food,Amusement Parks,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
 La Perla,Amusement Parks,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Limón,Amusement Parks,"Oakland, CA",https://www.limonrotisserie.co…,11:00 AM - 9:00 PM,"2450 Valdez St Oakland, CA 94612",(510) 808-7324,172,4.5
+Limón,Amusement Parks,"Oakland, CA",https://www.limonrotisserie.com,11:00 AM - 9:00 PM,"2450 Valdez St Oakland, CA 94612",(510) 808-7324,172,4.5
 The Saint Sandwich Shop,Amusement Parks,"Oakland, CA",https://www.thesaintsandwichsh…,11:00 AM - 3:00 PM,"3016 Macarthur Blvd Oakland, CA 94602",(510) 479-3554,89,5
 Bombera,Amusement Parks,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
 Paulista Brazilian Kitchen and Taproom,Amusement Parks,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
