@@ -12,13 +12,11 @@ Arnav Chakravarthy, Kartik Joshi, Edward Lu, Homestead High School (10th)
 This application acts as a search and suggest apparatus for users to find attractions in the Bay Area. Users can search for a specific location from a database of 700 attractions, or use search filters to help narrow down their desired location. As they search/narrow their filters, the grid of results on the bottom refreshes to match their queries. Each attraction card has relevant output attributes linked to it, such as: website link, phone number, rating score, number of reviews, times open, etc.
 
 ### Features: ###
-- Login system that uses Firebase Authentication
-- Five-question quiz generated from a Firebase Cloud Firestore database
-- Download quiz results as a PDF
-- View quiz statistics for a user
-  - average score
-  - highest score
-  - lowest score
+- Search through a database of 700 locations
+- Use input parameters to customize your output reports
+- Update your attraction results in real-time every time you update your query
+  - Attraction results include several output metrics about each attraction
+    - Metrics
 
 ### Future Enhancements: ###
 
