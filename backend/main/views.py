@@ -23,6 +23,7 @@ def list_urls(lis, acc=None):
 
 
 def index(request):
+    
 
     return HttpResponse("Hello, world. You're at the polls index.")
 
@@ -45,6 +46,7 @@ def debug(request):
 
 def search(request):
     return HttpResponse("Not Done")
+
 
 def loc(request):
     context = {
