@@ -14,9 +14,10 @@ This application acts as a search and suggest apparatus for users to find attrac
 ### Features: ###
 - Search through a database of 700 locations
 - Use input parameters to customize your output reports
+  - Allows users to find a list of desired attractions
 - Update your attraction results in real-time every time you update your query
   - Attraction results include several output metrics about each attraction
-    - Metrics
+    - Metrics include address, phone number, website link, ratings, number of ratings, as well as the location
 
 ### Future Enhancements: ###
 
