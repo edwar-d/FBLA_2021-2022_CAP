@@ -1,4 +1,3 @@
-from attr import attr
 from rest.models import Attractions
 
 def Process(data):

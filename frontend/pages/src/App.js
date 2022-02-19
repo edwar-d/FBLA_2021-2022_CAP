@@ -20,14 +20,16 @@ import TouristCards from './Components/displayTourists';
 //   },
 // ];
 
-const requestOptions = {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ City: '', Rating: '', Type: '',})
-};
-fetch('http://127.0.0.1:8000/api/v1/json/call', requestOptions)
-  .then(response => response.json())
-  .then(data => this.setState({ postId: data.id }));
+// const requestOptions = {
+//   method: 'POST',
+//   headers: { 'Content-Type': 'application/json' },
+//   body: JSON.stringify({ City: '', Rating: '', Type: '',})
+// };
+
+// fetch('http://127.0.0.1:8000/api/v1/json/call', requestOptions)
+//   .then(response => response.json())
+//   .then(data => this.setState({ postId: data.id }));
+
 function App() {
   return (
 

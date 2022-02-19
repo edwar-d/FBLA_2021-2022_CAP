@@ -55,14 +55,16 @@ def Call(request):
             db.append(_)
 #            db.append(attractionToDictionary(id),indent=4))
 
-        print(db)
-        # db = json.dumps( db , indent=4)
-        # print(type(db))
-        # with open('json_data.json', 'w') as outfile:
-        #     outfile.write(db)
+#        print(db)
+        db = json.dumps( db , indent=4)
+        open('render_data.json', 'w').close()
+        
+        with open('render_data.json', 'w') as outfile:
+            outfile.write(db)
 
         # print(db)
         
+
         return HttpResponse(str(db), content_type='application/json')
 
 #        return HttpResponse(recieved, content_type='application/json')
