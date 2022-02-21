@@ -2,6 +2,7 @@ import "./css/Login.css";
 import rend from '../utils/Constants'
 import axios from 'axios';
 import React, { Component } from "react";
+import Bridge from './ggl.jpg'
 
 class Login extends Component
 {
@@ -19,18 +20,19 @@ class Login extends Component
     
         this.initial_defPage = (
     
+            <div className="Image"> 
+             <img src={Bridge} height={600} width={600}/>
             <div className="LoginFrom">
-    
                 <div className="SubLogin">
             
-                    <h2> Find the perfect location</h2>
-            
+                <div className="hi">
+                    <h2>Find the perfect Location</h2>
+                </div>
                     <div className="city">
             
                         <label htmlFor="city">City: </label>
             
                         <select name="city" id="city">
-            
                             <option value="op_1">San Jose</option>
                             <option value="op_2">San Francisco</option>
                             <option value="op_3">Oakland</option>
@@ -91,10 +93,9 @@ class Login extends Component
                     </div>
             
                     <button onClick={() => this.submitEvent()}>Submit</button>
-    
-                    
                 </div>
     
+            </div>
             </div>
                 
         
