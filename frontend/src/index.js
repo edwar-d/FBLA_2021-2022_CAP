@@ -14,9 +14,9 @@ export default function Index()
   return(
     <BrowserRouter>
       <Routes>
-          <Route path="/" element={<App />}></Route>
-          <Route path="/select" element={<Login />}></Route>
-          <Route path="/render" element={<Render />}></Route>
+          <Route exact path="/" element={<App />}></Route>
+          <Route exact path="/select" element={<Login />}></Route>
+          <Route exact path="/render" element={<Render />}></Route>
       </Routes>
     </BrowserRouter>
   )

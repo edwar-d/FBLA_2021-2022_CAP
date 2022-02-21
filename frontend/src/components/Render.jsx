@@ -1,24 +1,17 @@
 import "./css/Render.css";
-import React, { Component } from "react";
+import React from "react";
+import {useLocation} from "react-router-dom";
 
-class Render extends Component{
-    constructor(props)
-    {
-        super(props);
-    }
+function Render(props){
 
-    render() {
+    const location = useLocation();
+    console.log(location.data);
 
-        alert(this.props.location.data);
-
-        return(
-
-            <p>feefe</p>
-        
-        );
-    }
-
+    return(
+    
+        <p></p>
+    
+    );
 }
 
-
-export default Ren
+export default Render; 
