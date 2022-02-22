@@ -156,7 +156,9 @@ class Login extends Component
                     'Access-Control-Allow-Origin': '*'
                 }
             });
-            super.setState({data: res.data});
+
+            this.queryData= JSON.parse(res.data.replaceAll("'", "").replaceAll("n\\", ""));
+            super.setState({data: this.queryData});
 
         }catch(error){
             alert("error in post req");
@@ -175,9 +177,10 @@ class Login extends Component
         this.sleep(100).then(() => {
             this.Reverse();
 
-            console.log(this.state.data);
-            const parsed = JSON.stringify(this.state.data);
-            console.log(parsed);
+            // Irrelevant
+            // console.log(this.state.data);
+            // const parsed = JSON.parse(this.state.data);
+            // console.log(parsed);
 
         });
                 
@@ -194,7 +197,7 @@ class Login extends Component
             return(
                 <div>
                     <h1 className = 'main-header'>Your Suggested Attractions...</h1>
-                    {attractions.map(createCard)}
+                    {this.queryData.map(createCard)}
                     {/* <pre>{JSON.stringify(this.state.data) }</pre> */}
                 </div>
             );
