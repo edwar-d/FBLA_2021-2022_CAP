@@ -59,7 +59,7 @@ def Call(request):
 
         ids = Process(recieved)
         db = []
-    
+
         for id in ids:
             _  = json.dumps( attractionToDictionary(id) )
             db.append(_)

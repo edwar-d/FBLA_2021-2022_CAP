@@ -5,18 +5,13 @@ def Process(data):
     # rating = data["rating"]
     # type_c = data["type_c"]
     P = Attractions.objects.all().filter(loc= (data["city"]+", CA"))
-    print("@DEBUG_P: ",P)
 
     if(float(data["rating"]) > 2.0):
         T = list(P.filter(type=data["type_c"]).order_by('star_rating'))
     else:
         T = list(P.filter(type=data["type_c"]))
 
-    print("@DEBUG: ",T)
-
-
     ids = []
-
     for i in range(len(T)):
         ids.append(T[i].id)
 
