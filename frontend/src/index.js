@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from './components/Login'
-import Render from './components/Render'
+// import Render from './components/Render'
 import App from "./App";
 
 
@@ -16,7 +16,7 @@ export default function Index()
       <Routes>
           <Route exact path="/" element={<App />}></Route>
           <Route exact path="/select" element={<Login />}></Route>
-          <Route exact path="/render" element={<Render />}></Route>
+          {/* <Route exact path="/render" element={<Render />}></Route> */}
       </Routes>
     </BrowserRouter>
   )

@@ -127,3 +127,11 @@ select{
     font-weight: bold;
     margin-top: 2rem;
   }
+
+  .main-header {
+    font-family: sans-serif;
+    color: rgb(0, 6, 63);
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-style: italic;
+  }

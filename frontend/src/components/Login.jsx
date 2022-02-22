@@ -3,9 +3,25 @@ import rend from '../utils/Constants'
 import axios from 'axios';
 import React, { Component } from "react";
 import Bridge from './ggl.jpg'
+import Card from './Card'
+import attractions from '../data'
+
+function createCard(attraction) {
+    return <Card 
+      name = {attraction.name}
+      loc = {attraction.loc}
+      address = {attraction.address}
+      number = {attraction.number}
+      website = {attraction.website}
+      times = {attraction.open_time}
+      rating = {attraction.star_rating}
+      reviews = {attraction.reviews}
+    />
+  }
 
 class Login extends Component
 {
+
     constructor()    {
         super();
         this.state = JSON.parse(window.localStorage.getItem('state')) || {
@@ -160,10 +176,12 @@ class Login extends Component
             console.log(this.state.data);
             const parsed = JSON.parse(this.state.data);
             console.log(parsed);
+            console.log(typeof(this.state.data));
 
         });
                 
     }
+
 
     render()
     {
@@ -172,11 +190,12 @@ class Login extends Component
 
             return this.initial_defPage;
         }else{
-            // const cards = [];
-            // for(let i = 1; )
-
             return(
-                <div><pre>{JSON.stringify(this.state.data) }</pre></div>
+                <div>
+                    <h1 className = 'main-header'>Your Suggested Attractions...</h1>
+                    {attractions.map(createCard)}
+                    {/* <pre>{JSON.stringify(this.state.data) }</pre> */}
+                </div>
             );
         }    
 
