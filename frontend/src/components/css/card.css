@@ -11,17 +11,20 @@ h1 {
     display: flex;
     align-items: flex-start;
       justify-content: center;
+      margin: auto;
   }
   
   .card {
     background: rgb(0, 6, 63);
-    width: 30em;
+    width: 47%;
+    height: 22rem;
     border-radius: 0.6em;
-    margin: 1em;
+    margin: 1rem;
     overflow: hidden;
     cursor: pointer;
     box-shadow: 0 13px 27px -5px rgba(29, 29, 153, 0.705), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
     transition: all ease 200ms;
+    display: inline-grid;
   }
   
   .card:hover {

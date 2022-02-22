@@ -16,8 +16,6 @@ function createCard(attraction) {
   />
 }
 
-console.log(attractions[0].name)
-
 class App extends Component
 {
   
