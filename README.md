@@ -5,7 +5,7 @@ Arnav Chakravarthy, Kartik Joshi, Edward Lu, Homestead High School (10th)
 
 ### Installation Instructions: ###
 
-[ADD]
+To run this project navigate to your project directory and go into the source folder in the frontend folder. In there run the npm start command to open the project on your browser. 
 
 ### Description: ###
 
