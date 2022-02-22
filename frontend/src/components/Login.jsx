@@ -6,18 +6,20 @@ import Bridge from './ggl.jpg'
 import Card from './Card'
 import attractions from '../data'
 
-function createCard(attraction) {
+function createCard(tourist) {
     return <Card 
-      name = {attraction.name}
-      loc = {attraction.loc}
-      address = {attraction.address}
-      number = {attraction.number}
-      website = {attraction.website}
-      times = {attraction.open_time}
-      rating = {attraction.star_rating}
-      reviews = {attraction.reviews}
+      name = {tourist.name}
+      loc = {tourist.loc}
+      address = {tourist.address}
+      number = {tourist.number}
+      website = {tourist.website}
+      times = {tourist.open_time}
+      rating = {tourist.star_rating}
+      reviews = {tourist.reviews}
     />
   }
+
+
 
 class Login extends Component
 {
@@ -35,7 +37,7 @@ class Login extends Component
 
     
         this.initial_defPage = (
-    
+
             <div className="Image"> 
              <img src={Bridge} height={600} width={600}/>
             <div className="LoginFrom">
@@ -49,8 +51,9 @@ class Login extends Component
                         <label htmlFor="city">City: </label>
             
                         <select name="city" id="city">
-                            <option value="op_1">San Jose</option>
-                            <option value="op_2">San Francisco</option>
+                            
+                            <option value="op_1">San Francisco</option>
+                            <option value="op_2">San Jose</option>
                             <option value="op_3">Oakland</option>
                             <option value="op_4">Berkeley</option>
             
@@ -86,9 +89,8 @@ class Login extends Component
                         <label htmlFor="attraction_type">Type: </label>
             
                         <select name="attraction_type" id="attraction_type">
-            
-                            <option value="op_1">Restaurants</option>
-                            <option value="op_2">Parks</option>
+                            <option value="op_1">Parks</option>
+                            <option value="op_2">Restaurants</option>
                             <option value="op_3">Bars</option>
                             <option value="op_4">Karaoke</option>
                             <option value="op_5">Malls</option>
@@ -174,15 +176,14 @@ class Login extends Component
             this.Reverse();
 
             console.log(this.state.data);
-            const parsed = JSON.parse(this.state.data);
+            const parsed = JSON.stringify(this.state.data);
             console.log(parsed);
-            console.log(typeof(this.state.data));
 
         });
                 
     }
 
-
+    
     render()
     {
         if(this.state.optionRender===false)
@@ -203,3 +204,4 @@ class Login extends Component
 }
 
 export default Login;
+

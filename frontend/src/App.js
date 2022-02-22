@@ -3,16 +3,16 @@ import './App.css';
 import Card from './components/Card'
 import attractions from './data'
 
-function createCard(attraction) {
+function createCard(tourist) {
   return <Card 
-    name = {attraction.name}
-    loc = {attraction.loc}
-    address = {attraction.address}
-    number = {attraction.number}
-    website = {attraction.website}
-    times = {attraction.open_time}
-    rating = {attraction.star_rating}
-    reviews = {attraction.reviews}
+    name = {tourist.name}
+    loc = {tourist.loc}
+    address = {tourist.address}
+    number = {tourist.number}
+    website = {tourist.website}
+    times = {tourist.open_time}
+    rating = {tourist.star_rating}
+    reviews = {tourist.reviews}
   />
 }
 
