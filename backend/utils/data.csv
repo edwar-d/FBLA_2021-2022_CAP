@@ -1,401 +1,74 @@
-name,type,loc,website,open_time,address,number,reviews,star_rating
-Amici’s East Coast Pizzeria at CloudKitchens San Jose,Restaurants,"San Jose, CA",http://www.amicis.com,11:00 AM - 10:00 PM,"949 Ruff Dr San Jose, CA 95110",(415) 728-0028,22,4.5
-Pizza Guys,Restaurants,"San Jose, CA",https://www.pizzaguys.com,10:00 AM - 10:00 PM,"4605 Cherry Ave San Jose, CA 95118",(669) 306-7185,35,3.5
-Firehouse No.1 Gastropub,Restaurants,"San Jose, CA",http://firehouse1.com/,5:00 PM - 9:00 PM,"69 N San Pedro St San Jose, CA 95110",(408) 287-6969,1623,4
-3rd & Bourbon,Restaurants,"San Jose, CA",https://www.3rdandbourbon.com,4:00 PM - 10:00 PM,"93 E Santa Clara St San Jose, CA 95113",(408) 320-2453,214,4.5
-The Table,Restaurants,"San Jose, CA",http://thetablesj.com,9:00 AM - 9:00 PM,"1110 Willow St San Jose, CA 95125",(408) 638-7911,3148,4
-SJ Omogari,Restaurants,"San Jose, CA",http://omogarisj.com,"11:30 AM - 3:00 PM, 5:00 PM - 9:00 PM","154 Jackson St San Jose, CA 95112",(408) 288-8134,2197,4
-Élyse Restaurant,Restaurants,"San Jose, CA",http://elyserestaurant.com,5:00 PM - 9:00 PM,"151 S 2nd St San Jose, CA 95113",(408) 899-2762,362,4.5
-District San Jose,Restaurants,"San Jose, CA",http://www.districtsj.com,5:00 PM - 10:00 PM,"65 N San Pedro St San Jose, CA 95110",(669) 292-5252,354,4
-Sumiya,Restaurants,"San Jose, CA",http://www.sumiyakitori.com,"11:30 AM - 1:30 PM, 5:30 PM - 9:00 PM","2634 Homestead Rd Santa Clara, CA 95051",(408) 973-0604,1246,4
-The Breakfast Club,Restaurants,"San Jose, CA",http://www.bcmidtown.com,7:00 AM - 3:00 PM,"1432 W San Carlos St San Jose, CA 95126",(408) 564-7150,2987,4
-Rotary PlayGarden,Parks,"San Jose, CA",http://www.grpg.org,10:00 AM - 4:00 PM,"490 Coleman Ave San Jose, CA 95110",(408) 298-7657,177,4
-Japanese Friendship Garden,Parks,"San Jose, CA",https://www.sanjoseca.gov,10:00 AM - 7:00 PM,"1300 Senter Rd San Jose, CA 95106",(408) 794-7275,342,4
-San Jose Municipal Rose Garden,Parks,"San Jose, CA",https://www.sanjoseca.gov,8:00 AM - 8:00 PM,"Naglee Ave & Dana Ave San Jose, CA 95126",(408) 794-7275,583,4.5
-Emma Prusch Farm Park,Parks,"San Jose, CA",http://www.sanjoseca.gov,8:30 AM - 8:30 PM,"647 S King Rd San Jose, CA 95116",(408) 794-6262,233,4.5
-Campbell Park,Parks,"San Jose, CA",http://www.ci.campbell.ca.us/,8:00 AM - 5:00 PM,"Gilman & Campbell Ave Campbell, CA 95008",(408) 866-2100,105,4 
-Da Boccery,Bars,"San Jose, CA",https://www.daboccery.com,11:00 AM - 9:00 PM,"175 E Vineyard Avenue Livermore, CA 94550",(925) 201-3353,75,3.5
-The Counter Santana Row,Bars,"San Jose, CA",http://www.thecounter.com,11:30 AM - 9:00 PM,"3055 Olin Ave Ste 1035 San Jose, CA 95128",(408) 423-9200,3521,3.5
-Five Points,Bars,"San Jose, CA",http://www.fivepointssj.com,4:00 PM - 2:00 AM (Next day),"169 W Santa Clara St San Jose, CA 95113",(408) 982-5816,252,4
-Miniboss,Bars,"San Jose, CA",http://www.sjminiboss.com,5:00 PM - 12:00 AM (Next day),"52 E Santa Clara St San Jose, CA 95113",(408) 520-4909,245,4
-3rd & Bourbon,Bars,"San Jose, CA",https://www.3rdandbourbon.com,4:00 PM - 10:00 PM,"93 E Santa Clara St San Jose, CA 95113",(408) 320-2453,214,4.5
-LVL 44,Bars,"San Jose, CA",http://www.lvl44.com,10:00 PM - 1:30 AM (Next day),"44 S Almaden Ave San Jose, CA 95113",(408) 331-8419,100,4
-Dr. Funk,Bars,"San Jose, CA",http://drfunksj.com,4:00 PM - 2:00 AM (Next day),"29 N San Pedro St San Jose, CA 95110",,38,4.5
-Paper Plane,Bars,"San Jose, CA",https://www.paperplanesj.com,5:00 PM - 2:00 AM (Next day),"72 S 1st St San Jose, CA 95113",(408) 713-2625,1387,4
-Rec Room,Bars,"San Jose, CA",https://www.recroomsj.com,6:00 PM - 1:00 AM (Next day),"1 East San Fernando St San Jose, CA 95113",,37,4
-Da Boccery,Karaoke,"San Jose, CA",https://www.daboccery.com,11:00 AM - 9:00 PM,"175 E Vineyard Avenue Livermore, CA 94550",(925) 201-3353,75,3.5
-Music Tunnel KTV Cafe,Karaoke,"San Jose, CA",http://www.musictunnelktv.com,3:00 PM - 12:00 AM (Next day),"1132 S De Anza Blvd Ste 10 San Jose, CA 95129",(408) 446-0888,425,4
-7 Bamboo Lounge,Karaoke,"San Jose, CA",http://www.7bamboolounge.com,7:00 PM - 2:00 AM (Next day),"162 Jackson St San Jose, CA 95112",(408) 279-9937,420,4
-Gamba Karaoke,Karaoke,"San Jose, CA",http://www.gambakaraoke.com/,7:30 PM - 2:00 AM (Next day),"19990 E Homestead Rd Cupertino, CA 95014",(408) 865-0955,316,4
-Golden Lounge KTV,Karaoke,"San Jose, CA",https://a.meipian.cn/9b7krf7?f…,3:00 PM - 2:00 AM (Next day),"6006 Stevenson Blvd Fremont, CA 94539",(510) 687-1221,22,3.5
-Britannia Arms Cupertino,Karaoke,"San Jose, CA",http://britanniaarmsdeanza.com,12:30 PM - 2:00 AM (Next day),"1087 S De Anza Blvd San Jose, CA 95129",(408) 252-7262,236,3.5
-Westfield Valley Fair,Malls,"San Jose, CA",http://www.westfield.com,11:00 AM - 9:00 PM,"2855 Stevens Creek Blvd Santa Clara, CA 95050",(408) 248-4450,1421,3.5
-Westfield Oakridge,Malls,"San Jose, CA",http://www.westfield.com,11:00 AM - 8:00 PM,"925 Blossom Hill Rd San Jose, CA 95123",(408) 578-2912,448,3.5
-Santana Row,Malls,"San Jose, CA",http://www.santanarow.com,10:00 AM - 9:00 PM,"377 Santana Row San Jose, CA 95128",(408) 551-4611,1111,3.5
-Eastridge,Malls,"San Jose, CA",http://www.eastridgecenter.com,11:00 AM - 8:00 PM,"2200 Eastridge Loop Ste 2062 San Jose, CA 95122",(408) 238-3600,365,3
-Gilroy Premium Outlets,Malls,"San Jose, CA",http://www.premiumoutlets.com,11:00 AM - 8:00 PM,"681 Leavesley Rd Gilroy, CA 95020",(408) 842-3729,488,3.5
-Stanford Shopping Center,Malls,"San Jose, CA",http://www.simon.com,11:00 AM - 7:00 PM,"660 Stanford Shopping Ctr Palo Alto, CA 94304",(650) 617-8200,643,4
-Westgate Center,Malls,"San Jose, CA",http://shopwestgatecenter.com,10:00 AM - 9:00 PM,"1600 Saratoga Ave San Jose, CA 95129",(877) 265-7417,162,3
-Happy Hollow Park & Zoo,Amusement Parks,"San Jose, CA",http://www.happyhollow.org,10:00 AM - 4:00 PM,"748 Story Rd San Jose, CA 95112",(408) 794-6400,938,4
-California's Great America,Amusement Parks,"San Jose, CA",http://www.cagreatamerica.com/,11:00 AM - 8:00 PM,"4701 Great America Pkwy Santa Clara, CA 95054",(408) 988-1776,1597,3
-KIDDO'S CHU CHU,Amusement Parks,"San Jose, CA",http://kiddoschuchu.com,8:00 AM - 8:00 PM,"1010 Metro Center Blvd Foster City, CA 94404",(650) 557-8030,5,5
-Happy Hollow Park & Zoo,Water Parks,"San Jose, CA",http://www.happyhollow.org,10:00 AM - 4:00 PM,"748 Story Rd San Jose, CA 95112",(408) 794-6400,938,4
-Aloha Roller Rink,Water Parks,"San Jose, CA",https://aloharollerrink.com,4:00 PM - 10:00 PM,"2190 Eastridge Lp Ste 1402 San Jose, CA 95122",(408) 637-7465,112,3
-Children's Discovery Museum,Water Parks,"San Jose, CA",http://www.cdm.org,9:30 AM - 12:30 PM,"180 Woz Way San Jose, CA 95110",(408) 298-5437,674,4
-Method 42 Productions,Water Parks,"San Jose, CA",http://www.method42.net,10:00 AM - 6:00 PM,"894 Commercial St San Jose, CA 95112",(408) 998-4242,11,4.5
-Westfield Valley Fair,Landmarks & Historical Buildings,"San Jose, CA",http://www.westfield.com,11:00 AM - 9:00 PM,"2855 Stevens Creek Blvd Santa Clara, CA 95050",(408) 248-4450,1421,3.5
-Santana Row,Landmarks & Historical Buildings,"San Jose, CA",http://www.santanarow.com,10:00 AM - 9:00 PM,"377 Santana Row San Jose, CA 95128",(408) 551-4611,1111,3.5
-Hakone Estate and Gardens,Landmarks & Historical Buildings,"San Jose, CA",http://www.hakone.com,10:00 AM - 4:00 PM,"21000 Big Basin Way Saratoga, CA 95070",(408) 741-4994,481,4
-Children's Discovery Museum,Museum,"San Jose, CA",http://www.cdm.org,9:30 AM - 12:30 PM,"180 Woz Way San Jose, CA 95110",(408) 298-5437,674,4
-The Tech Interactive,Museum,"San Jose, CA",http://www.thetech.org,10:00 AM - 3:00 PM,"201 S Market St San Jose, CA 95113",(408) 294-8324,694,3.5
-San Jose Institute of Contemporary Art,Museum,"San Jose, CA",http://www.sjica.org,12:00 PM - 5:00 PM,"560 S 1st St San Jose, CA 95113",(408) 283-8155,40,4.5
-Beyond Van Gogh,Museum,"San Jose, CA",https://vangoghsanjose.com,10:00 AM - 10:00 PM,"435 S Market St San Jose, CA 95113",(800) 441-0819,25,2.5
-Triton Museum of Art,Museum,"San Jose, CA",http://www.tritonmuseum.org,11:00 AM - 4:30 PM,"1505 Warburton Ave Santa Clara, CA 95050",(408) 247-2438,57,4.5
-Computer History Museum,Museum,"San Jose, CA",http://www.computerhistory.org,10:00 AM - 5:00 PM,"1401 N Shoreline Blvd Mountain View, CA 94043",(650) 810-1010,326,4.5
-Japanese American Museum of San Jose,Museum,"San Jose, CA",http://www.jamsj.org,12:00 PM - 4:00 PM,"535 North 5th St San Jose, CA 95112",(408) 294-3138,52,4.5
-Captain Kirk's San Francisco Sailing,Zoos,"San Jose, CA",http://www.sfbaysail.com,8:00 AM - 6:00 PM,"150 Harbor Dr Sausalito, CA 94965",(650) 930-0740,504,5
-Captain Kirk's San Francisco Sailing,Aquariums,"San Jose, CA",http://www.sfbaysail.com,8:00 AM - 6:00 PM,"150 Harbor Dr Sausalito, CA 94965",(650) 930-0740,504,5
-Hakone Estate and Gardens,Tourist Attractions,"San Jose, CA",http://www.hakone.com,10:00 AM - 4:00 PM,"21000 Big Basin Way Saratoga, CA 95070",(408) 741-4994,481,4
-Mystery Spot,Tourist Attractions,"San Jose, CA",http://mysteryspot.com/,10:00 AM - 4:00 PM,"465 Mystery Spot Rd Santa Cruz, CA 95065",(831) 423-8897,1263,4
-The Tech Interactive,Tourist Attractions,"San Jose, CA",http://www.thetech.org,10:00 AM - 3:00 PM,"201 S Market St San Jose, CA 95113",(408) 294-8324,694,3.5
-Marufuku Ramen,Restaurants,"San Francisco, CA",http://marufukuramen.com,11:00 AM - 10:00 PM,"1581 Webster St Ste 235 San Francisco, CA 94115",(415) 872-9786,3629,4.5
-Farmhouse Kitchen Thai Cuisine,Restaurants,"San Francisco, CA",http://www.farmhousethai.com,"11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM","710 Florida St San Francisco, CA 94110",(415) 814-2920,3045,4
-Sotto Mare Oysteria & Seafood,Restaurants,"San Francisco, CA",http://www.sottomaresf.com/,11:30 AM - 9:00 PM,"552 Green St San Francisco, CA 94133",(415) 398-3181,4250,4.5
-Burma Superstar,Restaurants,"San Francisco, CA",http://www.burmasuperstar.com/,"11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM","309 Clement St San Francisco, CA 94118",(415) 387-2147,7034,4
-Fog Harbor Fish House,Restaurants,"San Francisco, CA",https://fogharbor.com,11:00 AM - 9:00 PM,"39 Pier Ste A - 202 San Francisco, CA 94133",(415) 421-2442,7168,4.5
-Lokma,Restaurants,"San Francisco, CA",http://www.lokmasf.com,"10:00 AM - 2:30 PM, 4:00 PM - 8:30 PM","1801 Clement St San Francisco, CA 94121",(415) 702-6263,446,4.5
-a Mano,Restaurants,"San Francisco, CA",http://amanosf.com,12:00 PM - 10:00 PM,"450 Hayes St San Francisco, CA 94102",(415) 506-7401,1203,4
-Zaoh Restaurant,Restaurants,"San Francisco, CA",https://orderzaoh.com,"11:00 AM - 3:00 PM, 5:00 PM - 9:00 PM","1555 Mission St San Francisco, CA 94103",(415) 431-3930,315,4
-Valencia Pizza & Pasta,Parks,"San Francisco, CA",http://valenciapizzapasta.com,10:30 AM - 8:30 PM,"801 Valencia St San Francisco, CA 94110",(415) 642-1882,438,4
-Arabian Nights Restaurant,Parks,"San Francisco, CA",http://arabiannightssf.com,5:00 PM - 10:00 PM,"2345 Mission St San Francisco, CA 94110",(415) 648-1444,733,4
-Kitchen Story,Parks,"San Francisco, CA",http://kitchenstorysf.com,9:00 AM - 2:00 PM,"3499 16th St San Francisco, CA 94114",(415) 525-4905,3645,4
-Good Good Culture Club,Parks,"San Francisco, CA",http://ggccsf.com,5:00 PM - 9:00 PM,"3560 18th St San Francisco, CA 94110",,20,5
-Dumpling House,Parks,"San Francisco, CA",http://dumplinghouse-sf.com,"11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","335 Noe St San Francisco, CA 94114",(415) 829-2789,276,4.5
-Beretta,Parks,"San Francisco, CA",http://berettasf.com,5:00 PM - 10:00 PM,"1199 Valencia St San Francisco, CA 94110",(415) 695-1199,3877,4
-Chic n' Time,Parks,"San Francisco, CA",http://www.chicntimesf.com,12:00 PM - 8:30 PM,"807 Valencia St San Francisco, CA 94110",(415) 874-9757,115,5
-LUNA,Parks,"San Francisco, CA",http://www.lunasf.com,12:00 PM - 10:00 PM,"694 Valencia St San Francisco, CA 94110",(415) 737-0908,69,4
-Beit Rima,Parks,"San Francisco, CA",http://www.beitrimasf.com,11:00 AM - 8:30 PM,"138 Church St San Francisco, CA 94114",(415) 703-0270,492,4.5
-Farmhouse Kitchen Thai Cuisine,Parks,"San Francisco, CA",http://www.farmhousethai.com,"11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM","710 Florida St San Francisco, CA 94110",(415) 814-2920,3045,4
-Valencia Pizza & Pasta,Bars,"San Francisco, CA",http://valenciapizzapasta.com,10:30 AM - 8:30 PM,"801 Valencia St San Francisco, CA 94110",(415) 642-1882,438,4
-Arabian Nights Restaurant,Bars,"San Francisco, CA",http://arabiannightssf.com,5:00 PM - 10:00 PM,"2345 Mission St San Francisco, CA 94110",(415) 648-1444,733,4
-Kitchen Story,Bars,"San Francisco, CA",http://kitchenstorysf.com,9:00 AM - 2:00 PM,"3499 16th St San Francisco, CA 94114",(415) 525-4905,3645,4
-Good Good Culture Club,Bars,"San Francisco, CA",http://ggccsf.com,5:00 PM - 9:00 PM,"3560 18th St San Francisco, CA 94110",,20,5
-Loló,Bars,"San Francisco, CA",http://www.lolosf.com/,5:00 PM - 9:30 PM,"974 Valencia St San Francisco, CA 94110",(415) 643-5656,2299,4
-Dumpling House,Bars,"San Francisco, CA",http://dumplinghouse-sf.com,"11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","335 Noe St San Francisco, CA 94114",(415) 829-2789,276,4.5
-Beretta,Bars,"San Francisco, CA",http://berettasf.com,5:00 PM - 10:00 PM,"1199 Valencia St San Francisco, CA 94110",(415) 695-1199,3877,4
-Chic n' Time,Bars,"San Francisco, CA",http://www.chicntimesf.com,12:00 PM - 8:30 PM,"807 Valencia St San Francisco, CA 94110",(415) 874-9757,115,5
-LUNA,Bars,"San Francisco, CA",http://www.lunasf.com,12:00 PM - 10:00 PM,"694 Valencia St San Francisco, CA 94110",(415) 737-0908,69,4
-Beit Rima,Bars,"San Francisco, CA",http://www.beitrimasf.com,11:00 AM - 8:30 PM,"138 Church St San Francisco, CA 94114",(415) 703-0270,492,4.5
-Farmhouse Kitchen Thai Cuisine,Bars,"San Francisco, CA",http://www.farmhousethai.com,"11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM","710 Florida St San Francisco, CA 94110",(415) 814-2920,3045,4
-KFC,Karaoke,"San Francisco, CA",https://www.kfc.com,10:00 AM - 10:00 PM,"200 Duboce Ave San Francisco, CA 94103",(415) 431-1613,32,2
-Arabian Nights Restaurant,Karaoke,"San Francisco, CA",http://arabiannightssf.com,5:00 PM - 10:00 PM,"2345 Mission St San Francisco, CA 94110",(415) 648-1444,733,4
-Kitchen Story,Karaoke,"San Francisco, CA",http://kitchenstorysf.com,9:00 AM - 2:00 PM,"3499 16th St San Francisco, CA 94114",(415) 525-4905,3645,4
-Good Good Culture Club,Karaoke,"San Francisco, CA",http://ggccsf.com,5:00 PM - 9:00 PM,"3560 18th St San Francisco, CA 94110",,20,5
-Loló,Karaoke,"San Francisco, CA",http://www.lolosf.com/,5:00 PM - 9:30 PM,"974 Valencia St San Francisco, CA 94110",(415) 643-5656,2299,4
-Dumpling House,Karaoke,"San Francisco, CA",http://dumplinghouse-sf.com,"11:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","335 Noe St San Francisco, CA 94114",(415) 829-2789,276,4.5
-Beretta,Karaoke,"San Francisco, CA",http://berettasf.com,5:00 PM - 10:00 PM,"1199 Valencia St San Francisco, CA 94110",(415) 695-1199,3877,4
-Chic n' Time,Karaoke,"San Francisco, CA",http://www.chicntimesf.com,12:00 PM - 8:30 PM,"807 Valencia St San Francisco, CA 94110",(415) 874-9757,115,5
-LUNA,Karaoke,"San Francisco, CA",http://www.lunasf.com,12:00 PM - 10:00 PM,"694 Valencia St San Francisco, CA 94110",(415) 737-0908,69,4
-Beit Rima,Karaoke,"San Francisco, CA",http://www.beitrimasf.com,11:00 AM - 8:30 PM,"138 Church St San Francisco, CA 94114",(415) 703-0270,492,4.5
-Farmhouse Kitchen Thai Cuisine,Karaoke,"San Francisco, CA",http://www.farmhousethai.com,"11:00 AM - 2:00 PM, 5:00 PM - 10:00 PM","710 Florida St San Francisco, CA 94110",(415) 814-2920,3045,4
-Valencia Pizza & Pasta,Karaoke,"San Francisco, CA",http://valenciapizzapasta.com,10:30 AM - 8:30 PM,"801 Valencia St San Francisco, CA 94110",(415) 642-1882,438,4
-Pier 39,Malls,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Malls,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Japan Center,Malls,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Union Square,Malls,"San Francisco, CA",http://unionsquareshop.com/,,"333 Post St San Francisco, CA 94108",(415) 477-2610,50,4
-Metreon,Malls,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Pier 39,Amusement Parks,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Amusement Parks,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Amusement Parks,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Amusement Parks,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Amusement Parks,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Amusement Parks,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Pier 39,Water Parks,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Water Parks,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Water Parks,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Water Parks,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Water Parks,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Water Parks,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Pier 39,Landmarks & Historical Buildings,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Landmarks & Historical Buildings,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Landmarks & Historical Buildings,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Landmarks & Historical Buildings,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Landmarks & Historical Buildings,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Landmarks & Historical Buildings,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Pier 39,Museum,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Museum,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Museum,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Museum,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Museum,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Museum,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Pier 39,Monuments,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Monuments,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Monuments,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Monuments,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Monuments,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Pier 39,Temples,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Temples,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Temples,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Temples,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Temples,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Temples,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Pier 39,Zoos,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Zoos,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Zoos,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Zoos,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Zoos,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Zoos,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Pier 39,Aquariums,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Aquariums,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Aquariums,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Aquariums,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Aquariums,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Aquariums,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Pier 39,Art Galleries,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Art Galleries,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Art Galleries,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Art Galleries,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Art Galleries,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Art Galleries,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Pier 39,Tourist Attractions,"San Francisco, CA",http://www.pier39.com,11:00 AM - 8:00 PM,"The Embarcadero And Beach St San Francisco, CA 94133",(415) 981-7437,1405,4
-Westfield San Francisco Centre,Tourist Attractions,"San Francisco, CA",http://www.westfield.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 512-6776,1037,3.5
-Ghirardelli Square,Tourist Attractions,"San Francisco, CA",http://www.ghirardellisq.com,11:00 AM - 11:00 PM,"900 N Point St San Francisco, CA 94109",(415) 775-5500,1007,4
-Japan Center,Tourist Attractions,"San Francisco, CA",http://japancentersf.com/,7:00 AM - 12:00 AM (Next day),"1737 Post St San Francisco, CA 94115",(415) 440-1171,150,4
-Metreon,Tourist Attractions,"San Francisco, CA",http://www.shoppingmetreon.com,11:00 AM - 8:30 PM,"135 4th St San Francisco, CA 94103",(415) 369-6000,181,3.5
-Nordstrom,Tourist Attractions,"San Francisco, CA",https://shop.nordstrom.com,10:00 AM - 7:00 PM,"865 Market St San Francisco, CA 94103",(415) 243-8500,925,4
-Jamaica Flaves,Restaurants,"Oakland, CA",http://www.jamaicaflaves.com,11:00 AM - 9:00 PM,"2353 E 12th St Oakland, CA 94601",(510) 988-2800,2,5
-Biryani Kabab,Restaurants,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Marica,Restaurants,"Oakland, CA",https://www.maricaoakland.com,4:00 PM - 9:00 PM,"5301 College Ave Oakland, CA 94618",(510) 985-8388,2249,4.5
-Wood Tavern,Restaurants,"Oakland, CA",http://woodtavern.net/,11:30 AM - 9:00 PM,"6317 College Ave Oakland, CA 94618",(510) 654-6607,2034,4.5
-Kitchen Story,Restaurants,"Oakland, CA",https://www.kitchenstoryca.com,"9:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","5422 College Ave Oakland, CA 94618",(510) 922-9443,588,4
-Portal Oakland,Restaurants,"Oakland, CA",http://portaloakland.com,11:00 AM - 9:00 PM,"1611 2nd Ave Oakland, CA 94606",(510) 663-7678,1456,4
-Pla Daek,Restaurants,"Oakland, CA",https://www.pladaek.com,"11:00 AM - 3:00 PM, 4:30 PM - 8:30 PM","4133 Piedmont Ave Oakland Piedmont, CA 94611",(510) 658-8491,87,4.5
-Wawa Thai Food,Restaurants,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-Lakeshore Cafe,Parks,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Parks,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Parks,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Parks,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Southern Cafe,Parks,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Paulista Brazilian Kitchen and Taproom,Parks,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Bombera,Parks,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-Cafe Umami,Parks,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Pla Daek,Parks,"Oakland, CA",https://www.pladaek.com,"11:00 AM - 3:00 PM, 4:30 PM - 8:30 PM","4133 Piedmont Ave Oakland Piedmont, CA 94611",(510) 658-8491,87,4.5
-Marzano,Parks,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Lakeshore Cafe,Bars,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Bars,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Bars,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Bars,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Bombera,Bars,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-Paulista Brazilian Kitchen and Taproom,Bars,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Southern Cafe,Bars,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Bars,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Cafe Umami,Bars,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Two Local Girls,Bars,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-Jamaica Flaves,Bars,"Oakland, CA",http://www.jamaicaflaves.com,11:00 AM - 9:00 PM,"2353 E 12th St Oakland, CA 94601",(510) 988-2800,2,5
-Lakeshore Cafe,Karaoke,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Karaoke,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Karaoke,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Karaoke,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Southern Cafe,Karaoke,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Paulista Brazilian Kitchen and Taproom,Karaoke,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Cafe Umami,Karaoke,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Pla Daek,Karaoke,"Oakland, CA",https://www.pladaek.com,"11:00 AM - 3:00 PM, 4:30 PM - 8:30 PM","4133 Piedmont Ave Oakland Piedmont, CA 94611",(510) 658-8491,87,4.5
-Marzano,Karaoke,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Jamaica Flaves,Karaoke,"Oakland, CA",http://www.jamaicaflaves.com,11:00 AM - 9:00 PM,"2353 E 12th St Oakland, CA 94601",(510) 988-2800,2,5
-Lakeshore Cafe,Malls,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Malls,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Malls,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Malls,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Paulista Brazilian Kitchen and Taproom,Malls,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Southern Cafe,Malls,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Malls,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Cafe Umami,Malls,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Two Local Girls,Malls,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-KFC,Amusement Parks,"Oakland, CA",https://www.kfc.com,11:00 AM - 9:00 PM,"3734 Macarthur Blvd Oakland, CA 94619",(510) 530-3335,51,2
-Lakeshore Cafe,Amusement Parks,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Wawa Thai Food,Amusement Parks,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Amusement Parks,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Paulista Brazilian Kitchen and Taproom,Amusement Parks,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Southern Cafe,Amusement Parks,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Amusement Parks,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Cafe Umami,Amusement Parks,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Two Local Girls,Amusement Parks,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-Biryani Kabab,Amusement Parks,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Lakeshore Cafe,Water Parks,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Water Parks,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Water Parks,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Water Parks,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Southern Cafe,Water Parks,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Water Parks,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Cafe Umami,Water Parks,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Two Local Girls,Water Parks,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-Amici's East Coast Pizzeria at CloudKitchens Oakland - Alameda,Water Parks,"Oakland, CA",https://www.amicis.com,11:00 AM - 10:00 PM,"2353 E 12th St Oakland, CA 94601",(628) 201-6596,30,4
-Lakeshore Cafe,Landmarks & Historical Buildings,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Landmarks & Historical Buildings,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Landmarks & Historical Buildings,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Landmarks & Historical Buildings,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Paulista Brazilian Kitchen and Taproom,Landmarks & Historical Buildings,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Southern Cafe,Landmarks & Historical Buildings,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Landmarks & Historical Buildings,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Two Local Girls,Landmarks & Historical Buildings,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-Kitchen Story,Landmarks & Historical Buildings,"Oakland, CA",https://www.kitchenstoryca.com,"9:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","5422 College Ave Oakland, CA 94618",(510) 922-9443,588,4
-Amici's East Coast Pizzeria at CloudKitchens Oakland - Alameda,Landmarks & Historical Buildings,"Oakland, CA",https://www.amicis.com,11:00 AM - 10:00 PM,"2353 E 12th St Oakland, CA 94601",(628) 201-6596,30,4
-Lakeshore Cafe,Museum,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Museum,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Museum,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Museum,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Paulista Brazilian Kitchen and Taproom,Museum,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Southern Cafe,Museum,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Museum,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Two Local Girls,Museum,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-Kitchen Story,Museum,"Oakland, CA",https://www.kitchenstoryca.com,"9:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","5422 College Ave Oakland, CA 94618",(510) 922-9443,588,4
-Jamaica Flaves,Museum,"Oakland, CA",http://www.jamaicaflaves.com,11:00 AM - 9:00 PM,"2353 E 12th St Oakland, CA 94601",(510) 988-2800,2,5
-Lakeshore Cafe,Monuments,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Monuments,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Monuments,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Monuments,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Bombera,Monuments,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-Paulista Brazilian Kitchen and Taproom,Monuments,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Southern Cafe,Monuments,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Monuments,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Two Local Girls,Monuments,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-Kitchen Story,Monuments,"Oakland, CA",https://www.kitchenstoryca.com,"9:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","5422 College Ave Oakland, CA 94618",(510) 922-9443,588,4
-Amici's East Coast Pizzeria at CloudKitchens Oakland - Alameda,Monuments,"Oakland, CA",https://www.amicis.com,11:00 AM - 10:00 PM,"2353 E 12th St Oakland, CA 94601",(628) 201-6596,30,4
-Lakeshore Cafe,Temples,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Temples,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Temples,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Temples,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Southern Cafe,Temples,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Paulista Brazilian Kitchen and Taproom,Temples,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Bombera,Temples,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-Pla Daek,Temples,"Oakland, CA",https://www.pladaek.com,"11:00 AM - 3:00 PM, 4:30 PM - 8:30 PM","4133 Piedmont Ave Oakland Piedmont, CA 94611",(510) 658-8491,87,4.5
-Cafe Umami,Temples,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Marzano,Temples,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Lakeshore Cafe,Zoos,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Zoos,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Zoos,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Zoos,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Southern Cafe,Zoos,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Paulista Brazilian Kitchen and Taproom,Zoos,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Bombera,Zoos,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-Pla Daek,Zoos,"Oakland, CA",https://www.pladaek.com,"11:00 AM - 3:00 PM, 4:30 PM - 8:30 PM","4133 Piedmont Ave Oakland Piedmont, CA 94611",(510) 658-8491,87,4.5
-Cafe Umami,Zoos,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Marzano,Zoos,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Jamaica Flaves,Zoos,"Oakland, CA",http://www.jamaicaflaves.com,11:00 AM - 9:00 PM,"2353 E 12th St Oakland, CA 94601",(510) 988-2800,2,5
-Lakeshore Cafe,Aquariums,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Aquariums,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Aquariums,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-Southern Cafe,Aquariums,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Paulista Brazilian Kitchen and Taproom,Aquariums,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Bombera,Aquariums,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-Pla Daek,Aquariums,"Oakland, CA",https://www.pladaek.com,"11:00 AM - 3:00 PM, 4:30 PM - 8:30 PM","4133 Piedmont Ave Oakland Piedmont, CA 94611",(510) 658-8491,87,4.5
-Cafe Umami,Aquariums,"Oakland, CA",http://cafeumami.com,"9:00 AM - 3:00 PM, 5:00 PM - 8:00 PM","2224 MacArthur Blvd Oakland, CA 94602",(510) 646-2394,221,4.5
-Marzano,Aquariums,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Jamaica Flaves,Aquariums,"Oakland, CA",http://www.jamaicaflaves.com,11:00 AM - 9:00 PM,"2353 E 12th St Oakland, CA 94601",(510) 988-2800,2,5
-Lakeshore Cafe,Art Galleries,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Art Galleries,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Art Galleries,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Art Galleries,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Bombera,Art Galleries,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-Paulista Brazilian Kitchen and Taproom,Art Galleries,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Southern Cafe,Art Galleries,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Art Galleries,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Two Local Girls,Art Galleries,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-Kitchen Story,Art Galleries,"Oakland, CA",https://www.kitchenstoryca.com,"9:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","5422 College Ave Oakland, CA 94618",(510) 922-9443,588,4
-Amici's East Coast Pizzeria at CloudKitchens Oakland - Alameda,Art Galleries,"Oakland, CA",https://www.amicis.com,11:00 AM - 10:00 PM,"2353 E 12th St Oakland, CA 94601",(628) 201-6596,30,4
-Lakeshore Cafe,Tourist Attractions,"Oakland, CA",http://www.lakeshorecafeca.com,8:00 AM - 2:00 PM,"3257 Lakeshore Ave Oakland, CA 94610",(510) 832-4374,607,3.5
-Biryani Kabab,Tourist Attractions,"Oakland, CA",http://thebiryanikabab.com,11:00 AM - 9:30 PM,"377 13th St Oakland, CA 94612",(510) 835-3777,370,4
-Wawa Thai Food,Tourist Attractions,"Oakland, CA",https://www.wawathaifood.com,"11:30 AM - 2:30 PM, 4:00 PM - 8:30 PM","3009 Macarthur Blvd Oakland, CA 94602",(510) 853-7942,143,4.5
-La Perla,Tourist Attractions,"Oakland, CA",http://www.findlaperla.com,"12:00 PM - 3:00 PM, 4:00 PM - 7:00 PM","3409 Fruitvale Ave Oakland, CA 94602",(510) 479-3336,223,4.5
-Bombera,Tourist Attractions,"Oakland, CA",https://www.bomberaoakland.com,4:30 PM - 9:00 PM,"3459 Champion St Oakland, CA 94602",,59,4.5
-Paulista Brazilian Kitchen and Taproom,Tourist Attractions,"Oakland, CA",http://www.paulista510.com,8:30 AM - 9:00 PM,"4239 Park Blvd Oakland, CA 94602",(510) 866-2133,282,4
-Southern Cafe,Tourist Attractions,"Oakland, CA",http://southerncafe2000.com,11:00 AM - 9:00 PM,"2000 MacArthur Blvd Oakland, CA 94602",(510) 336-2013,584,4
-Marzano,Tourist Attractions,"Oakland, CA",http://marzanorestaurant.com,5:00 PM - 9:30 PM,"4214 Park Blvd Oakland, CA 94602",(510) 479-1448,613,4
-Two Local Girls,Tourist Attractions,"Oakland, CA",http://www.twolocalgirls.com,8:00 AM - 8:00 PM,"1440 Leimert Blvd Rocky's Market Oakland, CA 94602",(510) 482-2474,59,4.5
-Kitchen Story,Tourist Attractions,"Oakland, CA",https://www.kitchenstoryca.com,"9:00 AM - 2:30 PM, 5:00 PM - 9:00 PM","5422 College Ave Oakland, CA 94618",(510) 922-9443,588,4
-Amici's East Coast Pizzeria at CloudKitchens Oakland - Alameda,Tourist Attractions,"Oakland, CA",https://www.amicis.com,11:00 AM - 10:00 PM,"2353 E 12th St Oakland, CA 94601",(628) 201-6596,30,4
-Marica,Restaurants,"Berkeley, CA",https://www.maricaoakland.com,4:00 PM - 9:00 PM,"5301 College Ave Oakland, CA 94618",(510) 985-8388,2249,4.5
-Mad Seoul,Parks,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Bowl'd Korean Rice Bar,Parks,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Daryoush Persian Cuisine,Parks,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Parks,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Parks,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Amici's East Coast Pizzeria at CloudKitchens - North Oakland,Parks,"Berkeley, CA",http://www.amicis.com,11:00 AM - 10:00 PM,"5333 Adeline St. Oakland, CA 94608",(510) 775-1535,13,4.5
-Mad Seoul,Bars,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Bowl'd Korean Rice Bar,Bars,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Wojia Hunan Cuisine,Bars,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Daryoush Persian Cuisine,Bars,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Bars,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Bars,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Amici's East Coast Pizzeria at CloudKitchens - North Oakland,Bars,"Berkeley, CA",http://www.amicis.com,11:00 AM - 10:00 PM,"5333 Adeline St. Oakland, CA 94608",(510) 775-1535,13,4.5
-Cafe Raj,Karaoke,"Berkeley, CA",http://caferajonline.com,11:30 AM - 11:00 PM,"1158 Solano Ave Albany, CA 94706",(510) 524-5667,557,4
-Mad Seoul,Karaoke,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Bowl'd Korean Rice Bar,Karaoke,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Wojia Hunan Cuisine,Karaoke,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Daryoush Persian Cuisine,Karaoke,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Lizzy’s Cajun Cafe,Karaoke,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Amici's East Coast Pizzeria at CloudKitchens - North Oakland,Karaoke,"Berkeley, CA",http://www.amicis.com,11:00 AM - 10:00 PM,"5333 Adeline St. Oakland, CA 94608",(510) 775-1535,13,4.5
-Mad Seoul,Malls,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Bowl'd Korean Rice Bar,Malls,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Wojia Hunan Cuisine,Malls,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Flavia,Malls,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Cafe Raj,Malls,"Berkeley, CA",http://caferajonline.com,11:30 AM - 11:00 PM,"1158 Solano Ave Albany, CA 94706",(510) 524-5667,557,4
-Wojia Hunan Cuisine,Amusement Parks,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Daryoush Persian Cuisine,Amusement Parks,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Amusement Parks,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Amusement Parks,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-KFC,Amusement Parks,"Berkeley, CA",https://www.kfc.com,10:00 AM - 11:00 PM,"6035 Telegraph Rd Oakland, CA 94609",(510) 658-8828,51,2
-Cafe Raj,Water Parks,"Berkeley, CA",http://caferajonline.com,11:30 AM - 11:00 PM,"1158 Solano Ave Albany, CA 94706",(510) 524-5667,557,4
-Mad Seoul,Water Parks,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Wojia Hunan Cuisine,Water Parks,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Daryoush Persian Cuisine,Water Parks,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Water Parks,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Water Parks,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Cafe Raj,Landmarks & Historical Buildings,"Berkeley, CA",http://caferajonline.com,11:30 AM - 11:00 PM,"1158 Solano Ave Albany, CA 94706",(510) 524-5667,557,4
-Bowl'd Korean Rice Bar,Landmarks & Historical Buildings,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Mad Seoul,Landmarks & Historical Buildings,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Wojia Hunan Cuisine,Landmarks & Historical Buildings,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Daryoush Persian Cuisine,Landmarks & Historical Buildings,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Landmarks & Historical Buildings,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Landmarks & Historical Buildings,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Mad Seoul,Museum,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Bowl'd Korean Rice Bar,Museum,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Lizzy’s Cajun Cafe,Museum,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Bowl'd Korean Rice Bar,Monuments,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Mad Seoul,Monuments,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Daryoush Persian Cuisine,Monuments,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Monuments,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Monuments,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Cafe Raj,Monuments,"Berkeley, CA",http://caferajonline.com,11:30 AM - 11:00 PM,"1158 Solano Ave Albany, CA 94706",(510) 524-5667,557,4
-Mad Seoul,Temples,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Bowl'd Korean Rice Bar,Temples,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Wojia Hunan Cuisine,Temples,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Flavia,Temples,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Temples,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Bowl'd Korean Rice Bar,Zoos,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Mad Seoul,Zoos,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Wojia Hunan Cuisine,Zoos,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Flavia,Zoos,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Zoos,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Amici's East Coast Pizzeria at CloudKitchens - North Oakland,Zoos,"Berkeley, CA",http://www.amicis.com,11:00 AM - 10:00 PM,"5333 Adeline St. Oakland, CA 94608",(510) 775-1535,13,4.5
-Bowl'd Korean Rice Bar,Aquariums,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Mad Seoul,Aquariums,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Wojia Hunan Cuisine,Aquariums,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Daryoush Persian Cuisine,Aquariums,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Aquariums,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Aquariums,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Amici's East Coast Pizzeria at CloudKitchens - North Oakland,Aquariums,"Berkeley, CA",http://www.amicis.com,11:00 AM - 10:00 PM,"5333 Adeline St. Oakland, CA 94608",(510) 775-1535,13,4.5
-Bowl'd Korean Rice Bar,Art Galleries,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Mad Seoul,Art Galleries,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Wojia Hunan Cuisine,Art Galleries,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Daryoush Persian Cuisine,Art Galleries,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Art Galleries,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Art Galleries,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Cafe Raj,Art Galleries,"Berkeley, CA",http://caferajonline.com,11:30 AM - 11:00 PM,"1158 Solano Ave Albany, CA 94706",(510) 524-5667,557,4
-Bowl'd Korean Rice Bar,Tourist Attractions,"Berkeley, CA",http://www.bowldbbq.com,11:00 AM - 10:00 PM,"1479 Solano Ave Albany, CA 94706",(510) 526-6223,1222,4
-Mad Seoul,Tourist Attractions,"Berkeley, CA",http://www.madseoul.co,11:00 AM - 8:00 PM,"1801 Shattuck Ave Ste C Berkeley, CA 94709",(510) 705-1547,161,4.5
-Wojia Hunan Cuisine,Tourist Attractions,"Berkeley, CA",https://wojiahunancuisine.com,11:00 AM - 9:00 PM,"917 San Pablo Ave Albany, CA 94706",(510) 526-9088,400,4.5
-Daryoush Persian Cuisine,Tourist Attractions,"Berkeley, CA",http://www.daryoush.com,11:30 AM - 10:00 PM,"2144 Center St Berkeley, CA 94704",(510) 629-2144,213,4.5
-Flavia,Tourist Attractions,"Berkeley, CA",http://www.flaviaosteria.com,11:30 AM - 3:00 AM (Next day),"1511 Shattuck Ave Berkeley, CA 94709",(510) 629-2030,76,4
-Lizzy’s Cajun Cafe,Tourist Attractions,"Berkeley, CA",https://lizzyscajuncafe.net,11:00 AM - 6:00 PM,"902 Masonic Ave Albany, CA 94706",(510) 525-0400,28,4.5
-Amici's East Coast Pizzeria at CloudKitchens - North Oakland,Tourist Attractions,"Berkeley, CA",http://www.amicis.com,11:00 AM - 10:00 PM,"5333 Adeline St. Oakland, CA 94608",(510) 775-1535,13,4.5
+name,type,loc,website,open_time,address,number,reviews,star_rating,tour,review_category
+Il Fornaio San Jose,Restaurant,"San Jose, CA",https://www.ilfornaio.com/location/il-fornaio-san-jose/,7:00 AM - 9:00 PM,"302 S Market St, San Jose, CA 95113",14082713366,1032,4,No,1000+
+Yard House,Restaurant,"San Jose, CA",https://www.yardhouse.com/locations/ca/san-jose/san-jose-santana-row/8330?cmpid=br:yh_ag:ie_ch:loc_ca:YHGMB_sn:gmb_gt:san-jose-ca-8330_pl:locurl_rd:1028,11:00 AM - 12:00 AM,"300 Santana Row Suite 101, San Jose, CA 95128",14082419273,3058,4,No,1000+
+Poor House Bistro,Restaurant,"San Jose, CA",http://www.poorhousebistro.com/,5:00 PM - 9:00 PM,"91 Barack Obama Blvd, San Jose, CA 95110",14082925837,1397,4,No,1000+
+The Farmers Union,Restaurant,"San Jose, CA",http://www.thefarmersunion.com/,11:30 AM - 9:00 PM,"151 W Santa Clara St, San Jose, CA 95113",14082770545,1603,4,No,1000+
+Monument to the Founders of San Jose,Monuments,"San Jose, CA",https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2521/1396,Open 24 Hours,"550 S 1st St, San Jose, CA 95113",No Phone Number Available,2,5,No,1-10
+Cesar Chavez Monument,Monuments,"San Jose, CA",http://www.sjsu.edu/news/archive/2898.html,Open 24 Hours,"1 Washington Square, San Jose, CA 95112",No Phone Number Available,2,5,No,1-10
+Sons of San Jose Memorial,Monuments,"San Jose, CA",https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2521/1396,Open 24 Hours,"393 W Santa Clara St, San Jose, CA 95110",No Phone Number Available,2,3,No,1-10
+Olympic Black Power Statue,Monuments,"San Jose, CA",https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2521/1396,Open 24 Hours,"1 Washington Square, San Jose, CA 95112",No Phone Number Available,97,5,Yes,10-100
+Rainbow Park,Parks,"San Jose, CA",https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2345/2028?selcat=102npage=6,Open 24 Hours,"Rainbow Drive &, Donington Dr, San Jose, CA 95129",14087935510,329,4,No,100-500
+Murdock Park,Parks,"San Jose, CA",https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2297/2028?fsiteid=1selcat=102npage=5,Open 24 Hours,"1188 Wunderlich Dr, San Jose, CA 95129",14085353570,334,5,No,100-500
+Starbird Park,Parks,"San Jose, CA",https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2663/36,7:00 AM - 8:00 PM,"Boynton Ave  Williams road, San Jose, CA 95117",14085353570,289,4,No,100-500
+John Mise Park,Parks,"San Jose, CA",https://www.sanjoseca.gov/Home/Components/FacilityDirectory/FacilityDirectory/2241/2028?utm_campaign=google_mapsutm_medium=organicutm_source=google,6:00 AM - 8:00 PM,"594 Park Meadow Dr, San Jose, CA 95129",14087935510,558,5,No,500-1000
+Anno Domini Gallery,Galleries,"San Jose, CA",http://www.galleryad.com/,12:00 PM - 7:00 PM,"366 S 1st St, San Jose, CA 95113",14082715155,33,5,Yes,10-100
+Art Ark Gallery,Galleries,"San Jose, CA",http://www.artarkgallery.com/,6:00 PM - 9:00 PM,"1035 S 6th St, San Jose, CA 95112",No Phone Number Available,11,5,Yes,10-100
+Art Object,Galleries,"San Jose, CA",http://www.artobjectgallery.com/,12:00 PM - 2:00 PM,"592 N 5th St, San Jose, CA 95112",14082889305,11,5,No,10-100
+Citadel Art Studios,Galleries,"San Jose, CA",https://citadelartstudios.wordpress.com/,9:00 AM - 5:00 PM,"199 Martha St, San Jose, CA 95112",14087530278,16,4,Yes,10-100
+Hotel Elan,Hotels,"San Jose, CA",http://www.hotelelansanjose.com/,Open 24 Hours,"1215 S First St, San Jose, CA 95110",14082805300,318,4,No,100-500
+Pacific Motor Inn,Hotels,"San Jose, CA",https://www.googleadservices.com/pagead/aclk?sa=Lai=DChcSEwjkzKHGupT2AhUwC60GHevdD6YYABAMGgJwdgae=2ohost=www.google.comcid=CAESWOD2UyLKsKlG6foIVFVrNCi63tpyrKGz27AqdOckr9KKUek388od7G7ImqWwsV_O8-xVfobd27w_95FeuPa__zhYBmrtpof_C-KWa8TaxMXueMPNoVjv2Posig=AOD64_0Ba-WUM98V32Ttoe9NZMFCdewq2gqadurlved=2ahUKEwi79JDGupT2AhX3JEQIHSGYBc4Q0Qx6BAgEEAE,Open 24 Hours,"455 S Second St, San Jose, CA 95113",14082983500,326,4,No,100-500
+Hyatt Place,Hotels,"San Jose, CA",https://www.hyatt.com/en-US/hotel/california/hyatt-place-san-jose-downtown/sjczj?src=corp_lclb_gmb_seo_sjczj,Open 24 Hours,"282 Almaden Blvd, San Jose, CA 95113",14089980400,1631,4,No,1000+
+The Arena Hotel,Hotels,"San Jose, CA",https://www.arenahotelsj.com/,Open 24 Hours,"817 The Alameda, San Jose, CA 95126",14082946500,941,4,No,500-1000
+Westfield Valley Fair,Shopping,"San Jose, CA",http://www.westfield.com/valleyfair/,11:00 AM - 9:00 PM,"2855 Stevens Creek Blvd, Santa Clara, CA 95050",14082484450,8573,4,No,1000+
+Westgate Center,Shopping,"San Jose, CA",http://www.shopwestgatecenter.com/,10:00 AM - 9:00 PM,"1600 Saratoga Ave, San Jose, CA 95129",14086398424,4280,4,No,1000+
+Santana Row,Shopping,"San Jose, CA",http://www.santanarow.com/,10:00 AM - 9:00 PM,"377 Santana Row, San Jose, CA 95128",14085514611,13380,5,No,1000+
+Westfield Oakridge,Shopping,"San Jose, CA",http://www.westfield.com/oakridge/,10:00 AM - 8:00 PM,"925 Blossom Hill Rd, San Jose, CA 95123",14085782912,9026,4,No,1000+
+Golden Gate Bridge,Monuments,"San Francisco, CA",https://www.goldengate.org/ ,5:00 AM - 6:30 PM,"Golden Gate Bridge, San Francisco, CA",14159215858,"56,208",5,Yes,1000+
+Alcatraz Island,Monuments,"San Francisco, CA",https://www.nps.gov/alca/index.htm,10:00 AM - 9:00 PM,"San Francisco, CA 94133",14155614900,934,5,Yes,500-1000
+Pier 39,Monuments,"San Francisco, CA",https://www.pier39.com/,11:00 AM - 8:00PM,"The Embarcadero, San Francisco, CA 94133",14157055500,"98,888",5,No,1000+
+Chinatown,Monuments,"San Francisco, CA", http://www.sanfranciscochinatown.com/,9:00 AM - 10:00 PM,"Local Flavor - Grant Ave And Bush St, San Francisco, CA  ",No Phone Number Available,"7,063",4,No ,1000+
+Golden Gate Park,Parks,"San Francisco, CA", https://goldengatepark.com/,Open 24 hours,"501 Stanyan St San Francisco, CA 94117",14158312700,"41,551",5,No,1000+
+Muir Woods,Parks,"San Francisco, CA",https://www.nps.gov/muwo/index.htm,8:00 AM - 6:00 PM,"Mill Valley, CA 94941",14155612850,"12,639",5,Yes,1000+
+Golden Gate National Recreation Area,Parks,"San Francisco, CA",https://www.nps.gov/goga/index.htm ,10:00 AM - 5:00 PM,"Mill Valley, CA 94941
+",14155614700,"16,661",5,No,1000+
+Oracle Park,Parks,"San Francisco, CA",https://www.mlb.com/giants/ballpark ,10:00 AM - 6:00 PM,"24 Willie Mays Plaza, San Francisco, CA 94107 ",14159722000,"21,383",5,No,1000+
+Sam Wo Restaurant,Restaurant,"San Francisco, CA",http://www.samworestaurant.com/,11:00 AM - 8:00 PM,"713 Clay St, San Francisco, CA 94108",14159898898,961,4,No,500-1000
+Lucca Delicatessen,Restaurant,"San Francisco, CA",http://www.luccadeli.com/ ,9:00 AM - 6:00 PM,"2120 Chestnut St, San Francisco, CA 94123",14159217873,259,5,No ,100-500
+Sotto Mare,Restaurant,"San Francisco, CA",http://sottomaresf.com/,11:30 AM - 9:00 PM,"552 Green St, San Francisco, CA 94133",14153983181,2556,5,No,1000+
+House of Prime Rib,Restaurant,"San Francisco, CA",http://houseofprimerib.net/#menu ,9:00 AM - 5:00 PM,"1906 Van Ness Ave, San Francisco, CA 94109",No Phone Number Available,4490,5,No,1000+
+Hyatt Regency,Hotels,"San Francisco, CA",https://www.hyatt.com/en-US/hotel/california/hyatt-regency-san-francisco/sfors?src=corp_lclb_gmb_seo_sfors,Open 24 Hours,"5 Embarcadero Ctr, San Francisco, CA 94111",14157881234,5877,5,No,1000+
+InterContinental,Hotels,"San Francisco, CA",https://www.ihg.com/intercontinental/hotels/us/en//san-francisco/sfohb/hoteldetail,Open 24 Hours,"888 Howard St, San Francisco, CA 94103",14156166500,3666,4,No,1000+
+The Westin St Francis,Hotels,"San Francisco, CA",https://www.marriott.com/hotels/travel/sfouw-the-westin-st-francis-san-francisco-on-union-square/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2y_source=1_MTUwMjgwMS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D,Open 24 Hours,"335 Powell St, San Francisco, CA 94102",14153977000,4520,4,No,1000+
+Four Seasons Hotel,Hotels,"San Francisco, CA",https://www.fourseasons.com/sanfrancisco/?seo=google_local_sfr1_amer,Open 24 Hours,"757 Market St, San Francisco, CA 94103",14156333000,1442,5,No,1000+
+San Francisco Modern Musuem of Art,Galleries,"San Francisco, CA",https://www.sfmoma.org/,10:00 AM - 6:00 PM,"151 3rd St, San Francisco, CA 94103",14153574000,11865,5,No,1000+
+Legion of Honor,Galleries,"San Francisco, CA",https://legionofhonor.famsf.org/,9:30 AM - 5:15 PM,"100 34th Ave, San Francisco, CA 94121",14157503600,2387,5,No,1000+
+Palace of Fine Arts,Galleries,"San Francisco, CA",http://www.palaceoffinearts.com/,10:00 AM - 5:00 PM,"3601 Lyon St, San Francisco, CA 94123",14153761704,18210,5,Yes,1000+
+California Academy of Sciences,Galleries,"San Francisco, CA",https://www.calacademy.org/,9:30 AM - 5:00 PM,"55 Music Concourse Dr, San Francisco, CA 94118",14153798000,3662,5,Yes,1000+
+Westfield San Francisco Centre,Shopping,"San Francisco, CA",http://www.westfield.com/sanfrancisco/,10:00 AM - 7:00 PM ,"865 Market St, San Francisco, CA 94103",14155126776,17533,4,No,1000+
+Metreon,Shopping,"San Francisco, CA",http://www.shoppingmetreon.com/?utm_source=googleutm_medium=organicutm_campaign=GMButm_content=SW21_METREON,11:00 AM - 6:00 PM,"135 4th St, San Francisco, CA 94103",14153696000,6184,4,No,1000+
+Crocker Galleria,Shopping,"San Francisco, CA",https://unionsquareshop.com/stores/crocker-galleria.html,6:00 AM - 7:00 PM,"50 Post St, San Francisco, CA 94104",14153931500,837,4,No,500-1000
+Japan Center Malls,Shopping,"San Francisco, CA",https://www.sfjapantown.org/japan-center-malls/,8:30 AM - 10:00 PM,"1737 Post St, San Francisco, CA 94115",14154401171,5163,5,No,1000+
+Los Altos Grill,Restaurant,"Los Altos, CA",http://www.losaltosgrill.com/,4:00 PM - 9:00 PM,"233 3rd St, Los Altos, CA 94022",16509483524,1112,5,No,1000+
+Rustic House Oyster Grill,Restaurant,"Los Altos, CA",http://rustichouselosaltos.com/,11:00 AM - 8:30 PM,"295 Main St, Los Altos, CA 94022",16509352129,532,4,No,500-1000
+Cetrella,Restaurant,"Los Altos, CA",http://www.cetrella.com/,5:00 PM - 8:30 PM,"400 Main St, Los Altos, CA 94022",16509480400,384,4,No,100-500
+The Post,Restaurant,"Los Altos, CA",http://thepostlosaltos.com/,11:30 AM - 9:00 PM,"395 Main St, Los Altos, CA 94022",16509352003,445,4,No,100-500
+Los Altos History Museum,Monuments,"Los Altos, CA",http://www.losaltoshistory.org/,12:00 PM - 4:00 PM,"51 S San Antonio Rd, Los Altos, CA 94022",16509489427,164,5,Yes,100-500
+Alta Mesa Memorial Park,Monuments,"Los Altos, CA",http://www.altamesacemetery.com/,8:00 AM - 6:00 PM,"695 Arastradero Rd, Palo Alto, CA 94306",16504931041,66,4,Yes,10-100
+Gate of Heaven Catholic Cemetery,Monuments,"Los Altos, CA",https://www.catholiccemeteriesdsj.org/,8:00 AM - 5:00 PM,"22555 Cristo Rey Dr, Los Altos, CA 94024",16504283730,31,4,No,10-100
+Paul Shoup House,Monuments,"Los Altos, CA",http://www.losaltosca.gov/recreation/page/patriot-corner-picnic-area-shoup-park,8:00 AM - 8:00 PM,"500 University Ave, Los Altos, CA 94022",16509472790,634,5,No,500-1000
+Shoup Park,Parks,"Los Altos, CA",http://www.losaltosca.gov/recreation/page/patriot-corner-picnic-area-shoup-park,8:00 AM - 8:00 PM,"400 University Ave, Los Altos, CA 94022",16509472790,634,5,No,500-1000
+Grant Park,Parks,"Los Altos, CA",http://www.losaltosca.gov/recreation/page/grant-park-community-center,6:00 AM - 9:00 PM,"1575 Holt Ave, Los Altos, CA 94024",16509472790,217,4,No,100-500
+Heritage Oaks Park,Parks,"Los Altos, CA",http://www.losaltosca.gov/recreation/page/heritage-oaks-park,7:00 AM - 9:00 PM,"Miramonte Ave , Portland Ave, Los Altos, CA 94024",16509472790,175,5,No,100-500
+Rosita Park,Parks,"Los Altos, CA",http://www.losaltosca.gov/recreation,Open 24 Hours,"401 Rosita Ave, Los Altos, CA 94024",16509472790,63,5,No,10-100
+Nature Gallery,Galleries,"Los Altos, CA",http://www.nature-gallery.com/,10:00 AM - 8:00 PM,"296 State St, Los Altos, CA 94022",16503278700,18,5,No,10-100
+Gallery 9,Galleries,"Los Altos, CA",http://gallery9losaltos.com/,11:00 AM - 5:00 PM,"143 Main St, Los Altos, CA 94022",16509417969,6,3,No,1-10
+Viewpoints Art Gallery,Galleries,"Los Altos, CA",http://www.viewpointsgallery.com/,11:00 AM - 5:00 PM," 315 State St, Los Altos, CA 94022",16509415789,4,5,No,1-10
+Peabody Fine Art Gallery and Framing,Galleries,"Los Altos, CA",https://peabodygallery.com/,10:00 AM - 6:00 PM,"603 Santa Cruz Ave, Menlo Park, CA 94025",1650322200,41,5,No,10-100
+Enchante Boutique Hotel,Hotels,"Los Altos, CA",https://www.enchantehotel.com/,Open 24 Hours,"1 Main St, Los Altos, CA 94022",1650946200,135,5,No,100-500
+Courtyard by Mariott Palo Alto Los Altos,Hotels,"Los Altos, CA",https://www.marriott.com/hotels/travel/paocy-courtyard-palo-alto-los-altos/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2y_source=1_MTIzNjcxMi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D,Open 24 Hours,"4320 El Camino Real, Los Altos, CA 94022",16509419900,687,4,No,500-1000
+The Nest Hotel Palo Alto,Hotels,"Los Altos, CA",http://www.nestpaloalto.com/,Open 24 Hours,"3901 El Camino Real, Palo Alto, CA 94306",16504932760,241,4,No,100-500
+Residence Inn by Marriott Palo Alto,Hotels,"Los Altos, CA",https://www.marriott.com/hotels/travel/paori-residence-inn-palo-alto-los-altos/?scid=bb1a189a-fec3-4d19-a255-54ba596febe2y_source=1_MjgxOTMxOS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D,Open 24 Hours,"4460 El Camino Real, Los Altos, CA 94022",16505597890,574,4,No,500-1000
+Village Court Shopping Center,Shopping,"Los Altos, CA",http://village-center-los-altos.edan.io/,10:00 AM - 9:00 PM," 4546 El Camino Real, Los Altos, CA 94022",16509490960,412,4,No,100-500
+Rancho Shopping Center ,Shopping,"Los Altos, CA",https://www.visitrancho.com/,6:00 AM - 11:00 PM,"600 Foothill Expy, Los Altos, CA 94024",16509171000,423,4,No,100-500
+Foothill Crossing,Shopping,"Los Altos, CA",https://www.losaltosca.gov/communitydevelopment/page/22310-homestead-road-foothill-crossings-shopping-center,8:00 AM - 10:00 PM,"2310 Homestead Rd, Los Altos, CA 94024",16509416900,309,4,No,100-500
+Loyola Corners Shopping Center,Shopping,"Los Altos, CA",https://loyalcompanion.com/pages/waystoshop,9:00 AM - 6:00 PM,"981 Fremont Ave, Los Altos, CA 94024",No Phone Number Available,40,4,No,10-100
