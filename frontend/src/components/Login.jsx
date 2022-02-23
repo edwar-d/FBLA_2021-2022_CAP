@@ -40,24 +40,42 @@ class Login extends Component
         this.initial_defPage = (
 
             <div className="Image"> 
-             <img src={Bridge} height={600} width={600}/>
+            {/* <img src={Bridge} height={200} width={200}/> */}
             <div className="LoginFrom">
                 <div className="SubLogin">
             
                 <div className="hi">
-                    <h2>Find the perfect Location</h2>
+                    <h1>Find the Perfect Location</h1>
                 </div>
                     <div className="city">
             
                         <label htmlFor="city">City: </label>
             
-                        <select multiple name="city" id="city">
+                        <select name="city" id="city">
                             
-                            <option value="op_1">San Francisco</option>
-                            <option value="op_2">San Jose</option>
-                            <option value="op_3">Oakland</option>
-                            <option value="op_4">Berkeley</option>
+                            <option value="op_1">Select</option> 
+                            <option value="op_2">San Francisco</option>
+                            <option value="op_3">San Jose</option>
+                            <option value="op_4">Los Altos</option>
+                            
             
+                        </select>
+            
+                    </div>
+
+                    <div className="attraction_type">
+            
+                        <label htmlFor="attraction_type">Type: </label>
+            
+                        <select name="attraction_type" id="attraction_type">
+                            <option value="op_1">Select</option> 
+                            <option value="op_2">Restaurant</option>
+                            <option value="op_3">Monuments</option>
+                            <option value="op_4">Parks</option>
+                            <option value="op_5">Galleries</option>
+                            <option value="op_6">Hotels</option>
+                            <option value="op_7">Shopping</option>
+        
                         </select>
             
                     </div>
@@ -69,49 +87,44 @@ class Login extends Component
             
                         <select name="rating" id="rating">
             
-                            <option value="op_1">1.0</option>
-                            <option value="op_2">1.5</option>
-                            <option value="op_3">2.0</option>
-                            <option value="op_4">2.5</option>
-                            <option value="op_5">3.0</option>
-                            <option value="op_6">3.5</option>
-                            <option value="op_7">4.0</option>
-                            <option value="op_8">4.5</option>
-                            <option value="op_9">5.0</option>
+                            <option value="op_1">Select</option> 
+                            <option value="op_2">1</option>
+                            <option value="op_3">2</option>
+                            <option value="op_4">3</option>
+                            <option value="op_5">4</option>
+                            <option value="op_6">5</option>
             
                         </select>
             
                     </div>
             
+                    <div className="tour">
+                        <label htmlFor="tour"> Guided Tours: </label>
+                         <select name="tour" id="tour">
             
-            
-                    <div className="attraction_type">
-            
-                        <label htmlFor="attraction_type">Type: </label>
-            
-                        <select name="attraction_type" id="attraction_type">
-                            <option value="op_1">Parks</option>
-                            <option value="op_2">Restaurants</option>
-                            <option value="op_3">Bars</option>
-                            <option value="op_4">Karaoke</option>
-                            <option value="op_5">Malls</option>
-                            <option value="op_6">Amusement Park</option>
-                            <option value="op_7">Water Parks</option>
-                            <option value="op_8">Landmark & Hills</option>
-                            <option value="op_9">Musuem</option>
-                            <option value="op_10">Monuments</option>
-                            <option value="op_11">Temples</option>
-                            <option value="op_12">Zoos</option>
-                            <option value="op_13">Aquariums</option>
-                            <option value="op_14">Art Galleries</option>
-                            <option value="op_15">Tourist Attractions</option>
-                            <option value="op_16">Tourist Attractions</option>
+                            <option value="op_1">Select</option> 
+                            <option value="op_2">Yes</option>
+                            <option value="op_3">No</option>
             
                         </select>
-            
                     </div>
+
+                    <div className="numOfReviews">
+                        <label htmlFor="numOfReviews"> Number of reviews: </label>
+                         <select name="numOfReviews" id="numOfReviews">
             
+                            <option value="op_1">Select</option> 
+                            <option value="op_2">1-10</option>
+                            <option value="op_3">10-100</option>
+                            <option value="op_4">100-500</option>
+                            <option value="op_5">500-1000</option>
+                            <option value="op_6">1000+</option>
+                        </select>
+                    </div>
+
+            <div className="button">
                     <button onClick={() => this.submitEvent()}>Submit</button>
+                    </div>
                 </div>
     
             </div>
