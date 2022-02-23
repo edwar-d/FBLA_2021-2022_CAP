@@ -28,9 +28,7 @@ button{
 
 }
 select{
-    background: rgb(255, 255, 255);
-    border-radius: 6px;
-    height: 30px;
+    
 }
   .city{
     position: relative;

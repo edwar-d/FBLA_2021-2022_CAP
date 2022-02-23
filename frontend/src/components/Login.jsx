@@ -8,6 +8,7 @@ import attractions from '../data'
 
 function createCard(tourist) {
     return <Card 
+      key = {tourist.name}
       name = {tourist.name}
       loc = {tourist.loc}
       address = {tourist.address}
@@ -50,7 +51,7 @@ class Login extends Component
             
                         <label htmlFor="city">City: </label>
             
-                        <select name="city" id="city">
+                        <select multiple name="city" id="city">
                             
                             <option value="op_1">San Francisco</option>
                             <option value="op_2">San Jose</option>
