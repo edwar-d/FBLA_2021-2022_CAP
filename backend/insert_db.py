@@ -5,32 +5,47 @@ from rest.models import Attractions
 
 def run():
     df = pd.read_csv("D:/documents/GitHub/FBLA_2021-2022_CAP/backend/utils/data.csv").to_dict()
+#name,type,loc,website,open_time,address,number,reviews,star_rating,tour,review_category
 
     for i in range(400):
-        name         = df['name'][i]
-        type_s       = df['type'][i]
-        loc          = df['loc'][i]
-        website      = df['website'][i]
-        open_time    = df['open_time'][i]
-        address      = df['address'][i]
-        number       = df['number'][i]
-      
-        try:
-            reviews = int(df['reviews'][i])
-        except:
-            reviews = 0
+        name              = df['name'][i]
+        type_s            = df['type'][i]
+        loc               = df['loc'][i]
+        website           = df['website'][i]
+        open_time         = df['open_time'][i]
+        address           = df['address'][i]
+        number            = df['number'][i]
+        reviews           = df['reviews'][i]
+        star_rating       = df['star_rating'][i]
+        tour              = df['tour'][i]
+        review_category   = df['review_category'][i]
+        
+        if("y" in tour or "Y" in tour):
+            tour = True
+        else:
+            tour = False
 
-        try:
-            star_rating = float(df['star_rating'][i])
-        except:
-            star_rating = 0
-            
-        a = Attractions(name=name,type=type_s,loc=loc,website=website,open_time=open_time,address=address,number=number,reviews=reviews,star_rating=star_rating)
+        a = Attractions(
+
+            name=name,
+            type_of=type_s,
+            loc=loc,
+            website=website,
+            open_time=open_time,
+            address=address,
+            number=number,
+            reviews=reviews,
+            star_rating=star_rating,
+            tour = tour,
+            review_category =  review_category
+
+        )
+
         a.save()    
 
         print("------------------------------------")
-        print("FINISHED : ",i)
-        print(name,type_s,loc,website,open_time,address,number,reviews,star_rating)
+        print("FINISHED : ", i+1)
+        print( name,type_s,loc,website,open_time,address,number,reviews,star_rating)
         print("------------------------------------")
         
 

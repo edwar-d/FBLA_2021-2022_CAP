@@ -1,24 +1,54 @@
+from numpy import number
 from rest.models import Attractions
+from rest.models import InputField
+from rest.serializers import AttractionSerializer
+
+'''''
+{
+    "city":"San Francisco",
+    "rating":"false",
+    "guided_tours":"false",
+    "number_of_reviews":"1-10",
+    "type_of":"Restaurant"
+}
+'''
 
 def Process(data):
-    # city = data["city"]
-    # rating = data["rating"]
-    # type_c = data["type_c"]
-    P = Attractions.objects.all().filter(loc= (data["city"]+", CA"))
-    print("@DEBUG_P: ",P)
-
-    if(float(data["rating"]) > 2.0):
-        T = list(P.filter(type=data["type_c"]).order_by('star_rating'))
+    
+    if(data["rating"] == "false"):
+        data["rating"] = False
     else:
-        T = list(P.filter(type=data["type_c"]))
+        data["rating"] = True
 
-    print("@DEBUG: ",T)
+    if(data["guided_tours"] == "false"):
+        data["guided_tours"] = False
+    else:
+        data["guided_tours"] = True
 
+    print(data)
 
+    inP = InputField(
+        city=data["city"],
+        rating=data["rating"],
+        guided_tours=data["guided_tours"],
+        number_of_reviews=data["number_of_reviews"],
+        type_of=data["type_of"]
+    )
+
+    oP = list(
+        Attractions.objects.all()
+            .filter(loc      = (inP.city+", CA"))
+            .filter(type_of  =inP.type_of)
+            .filter(tour=inP.guided_tours)
+#            .filter(reviews  =inP.number_of_reviews)
+    )
+
+    print(oP)
+        
     ids = []
 
-    for i in range(len(T)):
-        ids.append(T[i].id)
+    for i in range(len(oP)):
+        ids.append(oP[i].id)
 
     return ids
 
@@ -32,14 +62,17 @@ def attractionToDictionary(id):
         return None
 
     dictionary["name"] = attraction.name
-    dictionary["type"] = attraction.type
+    dictionary["type_of"] = attraction.type_of
     dictionary["loc"] = attraction.loc
     dictionary["website"] = attraction.website
     dictionary["open_time"] = attraction.open_time
     dictionary["address"] = attraction.address
     dictionary["number"] = attraction.number
-    dictionary["reviews"] = str(attraction.reviews)
-    dictionary["star_rating"] = str(attraction.star_rating)
+    dictionary["reviews"] = attraction.reviews
+    dictionary["star_rating"] = attraction.star_rating
+    dictionary["review_category"] = attraction.review_category
+    dictionary["tour"] = str(attraction.tour).lower()
+    
 
     # if("\\u2026" in attraction.website):
     #     if(attraction.website)

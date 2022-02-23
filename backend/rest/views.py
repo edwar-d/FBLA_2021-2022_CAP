@@ -54,10 +54,10 @@ def Call(request):
     if recieved_serializer.is_valid():
 
         print("--------------------------")
-        print("RECIEVED: ",recieved)
+        print("RECIEVED: ",recieved_json)
         print("--------------------------")
 
-        ids = Process(recieved)
+        ids = Process(json.loads(recieved_json))
         db = []
     
         for id in ids:
