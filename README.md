@@ -9,7 +9,7 @@ To run this project navigate to your project directory and go into the source fo
 
 ### Description: ###
 
-This application acts as a search and suggest apparatus for users to find attractions in the Bay Area. Users can search for a specific location from a database of 700 attractions, or use search filters to help narrow down their desired location. As they search/narrow their filters, the grid of results on the bottom refreshes to match their queries. Each attraction card has relevant output attributes linked to it, such as: website link, phone number, rating score, number of reviews, times open, etc.
+This application acts as a search and suggest apparatus for users to find attractions in the Bay Area. Users can search for a specific location from a database of 72 attractions, or use search filters to help narrow down their desired location. As they search/narrow their filters, the grid of results on the bottom refreshes to match their queries. Each attraction card has relevant output attributes linked to it, such as: website link, phone number, rating score, number of reviews, times open, etc.
 
 ### Features: ###
 - Search through a database of 700 locations
