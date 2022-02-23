@@ -159,7 +159,10 @@ class Login extends Component
         ({
             city   : document.getElementById('city').selectedOptions[0].text,
             rating : document.getElementById('rating').selectedOptions[0].text,
-            type_c : document.getElementById('attraction_type').selectedOptions[0].text,
+            guided_tours : document.getElementById('tour').selectedOptions[0].text,
+            number_of_reviews : document.getElementById('numOfReviews').selectedOptions[0].text,
+            type_of : document.getElementById('attraction_type').selectedOptions[0].text,
+
         });
 
         try

@@ -14,19 +14,6 @@ from rest.serializers import AttractionSerializer
 '''
 
 def Process(data):
-    
-    if(data["rating"] == "false"):
-        data["rating"] = False
-    else:
-        data["rating"] = True
-
-    if(data["guided_tours"] == "false"):
-        data["guided_tours"] = False
-    else:
-        data["guided_tours"] = True
-
-    print(data)
-
     inP = InputField(
         city=data["city"],
         rating=data["rating"],
@@ -35,14 +22,43 @@ def Process(data):
         type_of=data["type_of"]
     )
 
-    oP = list(
-        Attractions.objects.all()
-            .filter(loc      = (inP.city+", CA"))
-            .filter(type_of  =inP.type_of)
-            .filter(tour=inP.guided_tours)
-#            .filter(reviews  =inP.number_of_reviews)
-    )
+    oP =Attractions.objects.all()
+            # .filter(loc      = (inP.city+", CA"))
+            # .filter(type_of  =inP.type_of)
+            # .filter(tour=inP.guided_tours)
 
+    if(data["city"] != "Select"):
+        oP = oP.filter(loc      = (inP.city+", CA"))
+
+    if(data["number_of_reviews"] != "Select"):
+        oP = oP.filter(review_category  =inP.number_of_reviews)
+
+    if(data["type_of"] != "Select"):
+        oP = oP.filter(type_of  =inP.type_of)
+        
+    
+    if(data["guided_tours"] != "Select"):
+
+        if(data["guided_tours"] == "No"):
+            oP = oP.filter(tour=False)
+
+        elif(data["guilded_tours"] == "Yes"):
+            oP = oP.filter(tour=True)
+
+    oP = list(oP)
+
+
+    # if(data["rating"]!="Select"):
+    #     if(data["rating"] == "false"):
+    #         data["rating"] = False
+    #     else:
+    #         data["rating"] = True
+
+
+    print(data)
+
+
+    inP.save();
     print(oP)
         
     ids = []

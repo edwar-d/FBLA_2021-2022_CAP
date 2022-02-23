@@ -35,8 +35,8 @@ class InputField(models.Model):
     city                 = models.CharField(max_length=100, default='')
     number_of_reviews    = models.CharField(max_length=100, default='')
     type_of              = models.CharField(max_length=100, default='')
-    rating               = models.BooleanField();
-    guided_tours         = models.BooleanField();
+    rating               = models.CharField(max_length=100, default='')
+    guided_tours         = models.CharField(max_length=100, default='')
 
 #    {"city":"San Francisco","rating":"false","guided_tours":"false","number_of_reviews":"1-10","type_of":"Restaurant"}
 

@@ -50,7 +50,8 @@ def Call(request):
     recieved = request.data
     recieved_json = json.dumps(recieved, indent=4)
     recieved_serializer = InputSerializer(data=recieved)
-
+    print(recieved)
+    
     if recieved_serializer.is_valid():
 
         print("--------------------------")
