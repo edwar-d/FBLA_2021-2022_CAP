@@ -1,3 +1,4 @@
+
 @property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
@@ -5,30 +6,25 @@
   }
   
   :root {
-    --card-height: 63.5vh;
-    --card-width: calc(var(--card-height) /1.2);
+    --card-height: 97vh;
+    --card-width: calc(var(--card-height) /1.5);
   }
   
   
-  body {
-    min-height: 100vh;
-    background: #ffffff;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    box-sizing: border-box;
-  }
 button{
     font-size: 20px;
     border-radius: 6px;
     background: #ffffff;
-    top: 300px;
-
+    top: auto;
+}
+html{
+  background-image: url('ggl.jpg') ;
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+  background-position: right top;
 }
 select{
-    background: rgb(255, 255, 255);
+    background: #665f62;
     border-radius: 6px;
     height: 30px;
 }
@@ -39,10 +35,56 @@ select{
     line-height: 3;
     overflow: hidden;
     border-radius: .25em;
-    padding-bottom: 10px;
+    padding-bottom: auto;
+    font-family: sans-serif;
+}
+.button{
+  padding-bottom: auto;
+}
+.rating{
+  position: relative;
+  display: block;
+  height: 2em;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: .25em;
+  padding-bottom: auto;
+  font-family: sans-serif;
+}
+.attraction_type{
+  position: relative;
+  display: block;
+  height: 2em;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: .25em;
+  padding-bottom: auto;
+  font-family: sans-serif;
+}
+.tour{
+  position: relative;
+  display: block;
+  height: 2em;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: .25em;
+  padding-bottom: auto;
+  font-family: sans-serif;
+}
+.numOfReviews{
+  position: relative;
+  display: block;
+  height: 2em;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: .25em;
+  padding-bottom: auto;
+  font-family: sans-serif;
 }
   .LoginFrom {
-    background: #191c29;
+    margin-top: 0px;
+    border-radius: 40px;
+    background: #645045;
     width: var(--card-width);
     height: var(--card-height);
     padding: 3px;
@@ -55,14 +97,14 @@ select{
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
     font-family: cursive;
+    align-self: center;
+    margin: auto;
+    width: 50%;
   }
   
-  .Image{
-      margin-top: 100px;
-      display: flex;
-  }
+ 
   .hi{
-      margin-top: -125px;
+      margin-top: auto;
       font-size: 30px;
   }
   .LoginFrom {
