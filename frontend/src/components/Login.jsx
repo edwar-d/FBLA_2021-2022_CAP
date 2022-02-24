@@ -87,12 +87,8 @@ class Login extends Component
             
                         <select name="rating" id="rating">
             
-                            <option value="op_1">Select</option> 
-                            <option value="op_2">1</option>
-                            <option value="op_3">2</option>
-                            <option value="op_4">3</option>
-                            <option value="op_5">4</option>
-                            <option value="op_6">5</option>
+                            <option value="op_1">No Filter</option> 
+                            <option value="op_2">Sort by Highest</option>
             
                         </select>
             
@@ -175,10 +171,11 @@ class Login extends Component
             });
 
             this.queryData= JSON.parse(res.data.replaceAll("'", "").replaceAll("n\\", ""));
+            
             super.setState({data: this.queryData});
 
         }catch(error){
-            alert("error in post req");
+            alert("Unfortunately, no attractions match your search. Try making your query broader!");
         }
     }
 
@@ -193,12 +190,6 @@ class Login extends Component
         this.post_r();
         this.sleep(100).then(() => {
             this.Reverse();
-
-            // Irrelevant
-            // console.log(this.state.data);
-            // const parsed = JSON.parse(this.state.data);
-            // console.log(parsed);
-
         });
                 
     }
@@ -211,11 +202,11 @@ class Login extends Component
 
             return this.initial_defPage;
         }else{
+            
             return(
                 <div>
                     <h1 className = 'main-header'>Your Suggested Attractions...</h1>
-                    {this.queryData.map(createCard)}
-                    {/* <pre>{JSON.stringify(this.state.data) }</pre> */}
+                    {this.queryData?.map(createCard)}
                 </div>
             );
         }    
