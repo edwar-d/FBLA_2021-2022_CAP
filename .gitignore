@@ -1,0 +1,7 @@
+
+*.pack
+frontend/node_modules/.cache/.eslintcache
+*.pack
+*.pyc
+backend/.DS_Store
+backend/venv/
