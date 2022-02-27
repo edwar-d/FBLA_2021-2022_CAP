@@ -142,8 +142,11 @@ class App extends Component {
         },
       });
 
+      // Removes single-quotes from POST request result
+      // JSON.parse() parses the Stringified JSON to a JSON Array
+      // Stores array in this.queryData
       this.queryData = JSON.parse(
-        res.data.replaceAll("'", "").replaceAll("n\\", "")
+        res.data.replaceAll("'", "")
       );
 
       super.setState({ data: this.queryData });

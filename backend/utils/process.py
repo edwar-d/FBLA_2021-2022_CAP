@@ -42,7 +42,7 @@ def Process(data):
         if(data["guided_tours"] == "No"):
             oP = oP.filter(tour=False)
 
-        elif(data["guilded_tours"] == "Yes"):
+        elif(data["guided_tours"] == "Yes"):
             oP = oP.filter(tour=True)
 
     oP = list(oP)
