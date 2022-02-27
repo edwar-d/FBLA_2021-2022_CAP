@@ -10,8 +10,20 @@ h1 {
   .cards {
     display: flex;
     align-items: flex-start;
-      justify-content: center;
-      margin: auto;
+    justify-content: center;
+    margin: auto;
+  }
+
+  @keyframes slidein {
+    from {
+      /* opacity: 0; */
+      margin-top: 50%;
+    }
+  
+    to {
+      /* opacity: 100%; */
+      margin-top: 1em;
+    }
   }
   
   .card {
@@ -25,6 +37,8 @@ h1 {
     box-shadow: 0 13px 27px -5px rgba(29, 29, 153, 0.705), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
     transition: all ease 200ms;
     display: inline-grid;
+    animation-duration: 1s;
+    animation-name: slidein;
   }
   
   .card:hover {

@@ -223,4 +223,7 @@
     margin-left: 15px;
     margin-bottom: 15px;
     font-style: italic;
+    animation-duration: 2s;
+    animation-name: slidein;
   }
+
