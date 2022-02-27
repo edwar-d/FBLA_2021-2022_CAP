@@ -6,3 +6,4 @@ frontend/node_modules/.cache/.eslintcache
 backend/.DS_Store
 backend/venv/
 backend/db.sqlite3
+*.sqlite3
