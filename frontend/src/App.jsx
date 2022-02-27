@@ -9,6 +9,7 @@ function createCard(tourist) {
   return (
     <Card
       key={tourist.name} // Setting name as the unique key property
+      img={tourist.img}
       name={tourist.name}
       loc={tourist.loc}
       address={tourist.address}

@@ -4,6 +4,7 @@ import "./css/card.css";
 function Card (props) {
       return(
           <div className="card">
+            {/* <img src = {props.img} /> */}
             <div className="card-body">
               <h1>{props.name}</h1>
               <p>{props.loc}  |  {props.address}</p>
