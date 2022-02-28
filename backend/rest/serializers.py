@@ -10,4 +10,4 @@ class InputSerializer(serializers.ModelSerializer):
 class AttractionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Attractions
-        fields = ('name','type_of','loc','website','open_time','address','number','reviews','star_rating','tour','review_category')
+        fields = ('name','type_of','loc','website','open_time','address','number','reviews','star_rating','tour','review_category', 'img_url')

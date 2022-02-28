@@ -26,7 +26,10 @@ class Attractions(models.Model):
     star_rating        = models.CharField(max_length=100, default='')
 #    tour               = models.CharField(max_length=100, default='')
     review_category    = models.CharField(max_length=100, default='')
-    tour               = models.BooleanField();
+    tour               = models.BooleanField()
+    img_url           = models.URLField(max_length =1000)
+
+
 
     def _str_(self):
         return self.name

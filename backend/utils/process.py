@@ -22,6 +22,8 @@ def Process(data):
         type_of=data["type_of"]
     )
 
+    inP.save()
+
     oP =Attractions.objects.all()
             # .filter(loc      = (inP.city+", CA"))
             # .filter(type_of  =inP.type_of)
