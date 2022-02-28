@@ -7,3 +7,4 @@ backend/.DS_Store
 backend/venv/
 backend/db.sqlite3
 *.sqlite3
+*.sqlite3

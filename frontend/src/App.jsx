@@ -2,6 +2,8 @@ import "./App.css";
 import axios from "axios";
 import React, { Component } from "react";
 import Card from "./components/Card";
+import attractions from "./testdata";
+import Bridge from "./components/ggl.jpg"
 
 // Function creates an attraction Card using the Card.jsx component
 function createCard(tourist) {
@@ -35,14 +37,16 @@ class App extends Component {
     }
 
     this.initial_defPage = (
+      
       <div className="Image">
-        {/* <img src={Bridge} height={200} width={200}/> */}
+      <img src={Bridge} className = "Bridge"/>
         <div className="LoginFrom">
           <div className="SubLogin">
             <div className="hi">
-              <h1>Find the Perfect Location</h1>
+              <h1>InstaTrip</h1>
             </div>
-            <div className="city">
+            
+            <div className="category">
               <label htmlFor="city">City: </label>
 
               <select name="city" id="city">
@@ -53,7 +57,7 @@ class App extends Component {
               </select>
             </div>
 
-            <div className="attraction_type">
+            <div className="category">
               <label htmlFor="attraction_type">Type: </label>
 
               <select name="attraction_type" id="attraction_type">
@@ -67,7 +71,7 @@ class App extends Component {
               </select>
             </div>
 
-            <div className="rating">
+            <div className="category">
               <label htmlFor="rating">Rating: </label>
 
               <select name="rating" id="rating">
@@ -76,7 +80,7 @@ class App extends Component {
               </select>
             </div>
 
-            <div className="tour">
+            <div className="category">
               <label htmlFor="tour"> Guided Tours: </label>
               <select name="tour" id="tour">
                 <option value="op_1">Select</option>
@@ -85,8 +89,8 @@ class App extends Component {
               </select>
             </div>
 
-            <div className="numOfReviews">
-              <label htmlFor="numOfReviews"> Number of reviews: </label>
+            <div className="category">
+              <label htmlFor="numOfReviews"> Number of Reviews: </label>
               <select name="numOfReviews" id="numOfReviews">
                 <option value="op_1">Select</option>
                 <option value="op_2">1-10</option>
@@ -179,6 +183,11 @@ class App extends Component {
           <h1 className="main-header">Your Suggested Attractions...</h1>
           {/* Use the createCard() inside the map() function to create attraction card from the JSON array 'this.queryData' */}
           {this.queryData?.map(createCard)} 
+          
+          
+          
+          {/* Test Data Render: */}
+          {/* {attractions.map(createCard)}  */}
         </div>
       );
     }
