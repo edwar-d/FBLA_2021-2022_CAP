@@ -3,7 +3,7 @@ import axios from "axios";
 import React, { Component } from "react";
 import Card from "./components/Card";
 import attractions from "./testdata";
-import Bridge from "./components/ggl.jpg"
+import Bridge from "./components/ggb.jpg"
 
 // Function creates an attraction Card using the Card.jsx component
 function createCard(tourist) {
@@ -158,8 +158,9 @@ class App extends Component {
     } catch (error) {
       // In case of a POST request error (no results in array), browser alerts user to do refresh and change query
       alert(
-        "Unfortunately, no attractions match your search. Refresh and try making your query broader!"
+        "Unfortunately, no attractions match your search. Click 'OK' to refresh page"
       );
+      window.location.reload(false);
     }
   }
 
