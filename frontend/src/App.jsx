@@ -11,7 +11,7 @@ function createCard(tourist) {
   return (
     <Card
       key={tourist.name} // Setting name as the unique key property
-      img={tourist.img}
+      img={tourist.img_url}
       name={tourist.name}
       loc={tourist.loc}
       address={tourist.address}
@@ -153,6 +153,7 @@ class App extends Component {
       this.queryData = JSON.parse(
         res.data.replaceAll("'", "")
       );
+      console.log(this.queryData);
 
       super.setState({ data: this.queryData });
     } catch (error) {

@@ -12,7 +12,7 @@ function Card (props) {
               <h2>Contact:</h2>
               <p>Phone: {props.number}</p>
               <a href = {props.website} target = 'blank'>Website 🔗</a>
-              <h5>{props.rating} ({props.reviews} reviews)</h5>
+              <h5>{props.rating}/5 STARS ({props.reviews} reviews)</h5>
             </div>
           </div>
       )    
