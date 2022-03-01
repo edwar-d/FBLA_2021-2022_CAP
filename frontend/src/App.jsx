@@ -186,8 +186,6 @@ class App extends Component {
           {/* Use the createCard() inside the map() function to create attraction card from the JSON array 'this.queryData' */}
           {this.queryData?.map(createCard)} 
           
-          
-          
           {/* Test Data Render: */}
           {/* {attractions.map(createCard)}  */}
         </div>
