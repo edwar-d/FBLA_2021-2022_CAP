@@ -7,7 +7,7 @@ def run():
     df = pd.read_csv("./utils/datawithimg.csv").to_dict()
 #name,type,loc,website,open_time,address,number,reviews,star_rating,tour,review_category
 
-    for i in range(72,74):
+    for i in range(74):
         name              = df['name'][i]
         type_s            = df['type'][i]
         loc               = df['loc'][i]
