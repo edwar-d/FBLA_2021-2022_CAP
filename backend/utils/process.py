@@ -90,6 +90,7 @@ def attractionToDictionary(id):
     dictionary["star_rating"] = attraction.star_rating
     dictionary["review_category"] = attraction.review_category
     dictionary["tour"] = str(attraction.tour).lower()
+    dictionary["img_url"] = attraction.img_url
     
 
     # if("\\u2026" in attraction.website):
