@@ -15,6 +15,9 @@ export default function Index()
 }
 
 
+/**
+ * Renders the code inside the render method for ReactDom to display our webpage.
+ */
 ReactDOM.render(
   <React.StrictMode>
     <Index />
