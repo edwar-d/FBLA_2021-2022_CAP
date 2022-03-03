@@ -1,3 +1,7 @@
+/**
+ * Json data collected from google maps and yelp for the locations of San Francisco, San Jose and Los Altos
+ */
+
 const data = [
   {
     "name": "Amici’s East Coast Pizzeria at CloudKitchens San Jose",

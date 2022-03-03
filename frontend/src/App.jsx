@@ -36,6 +36,10 @@ class App extends Component {
       this.Reverse();
     }
 
+    /**
+     * Creating the initial loaded page for our website with the login form 
+     */
+
     this.initial_defPage = (
       
       <div className="Image">
@@ -126,6 +130,10 @@ class App extends Component {
     });
   };
 
+  /**
+   * Sending a post request to a local SqLite database 
+   */
+
   async post_r() {
     const api_url = "http://127.0.0.1:8000/api/v1/json/call";
 
@@ -165,10 +173,20 @@ class App extends Component {
     }
   }
 
+  /**
+   * 
+   * @param {*} time 
+   * @returns make sures that the post request does not take too much time to load 
+   */
+
   sleep(time) {
     return new Promise((resolve) => setTimeout(resolve, time));
   }
-
+/**
+ * 
+ * @param {*} event 
+ * Handling the submit event when you press the submit button in your login form
+ */
   submitEvent = (event) => {
     this.post_r();
     this.sleep(100).then(() => {
