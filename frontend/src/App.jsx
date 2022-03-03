@@ -2,7 +2,6 @@ import "./App.css";
 import axios from "axios";
 import React, { Component } from "react";
 import Card from "./components/Card";
-import attractions from "./testdata";
 import Bridge from "./components/ggb.jpg"
 
 // Function creates an attraction Card using the Card.jsx component
@@ -185,9 +184,6 @@ class App extends Component {
           <h1 className="main-header">Your Suggested Attractions...</h1>
           {/* Use the createCard() inside the map() function to create attraction card from the JSON array 'this.queryData' */}
           {this.queryData?.map(createCard)} 
-          
-          {/* Test Data Render: */}
-          {/* {attractions.map(createCard)}  */}
         </div>
       );
     }
