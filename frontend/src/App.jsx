@@ -176,7 +176,7 @@ class App extends Component {
         "Unfortunately, no attractions match your search. Click 'OK' to refresh page"
       );
       window.location.reload(false);
-    }
+     }
   }
 
   /**
@@ -213,6 +213,7 @@ class App extends Component {
           {/* Use the createCard() inside the map() function to create 
           attraction card from the JSON array 'this.queryData' */}
           {this.queryData?.map(createCard)} 
+          
         </div>
       );
     }
