@@ -28,7 +28,7 @@ h1 {
   
   .card {
     /* background: rgb(0, 6, 63); */
-    background: white;
+    background: rgb(255, 255, 255);
     width: 47%;
     height: 41rem;
     border-radius: 0.6em;

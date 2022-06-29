@@ -23,6 +23,10 @@ function createCard(tourist) {
   );
 }
 
+function refreshPage() {
+  window.location.reload(false);
+}
+
 class App extends Component {
   constructor() {
     super();
@@ -31,18 +35,19 @@ class App extends Component {
       data: [],
     };
 
-    if (this.state.optionRender == true) {
+    if (this.state.optionRender === true) {
       this.Reverse();
     }
 
     /**
      * Creating the initial loaded page for our website with the login form 
+     * Selection form for search query
      */
 
     this.initial_defPage = (
       
       <div className="Image">
-      <img src={Bridge} className = "Bridge"/>
+      <img src={Bridge} alt="Golden Gate Bridge" className = "Bridge"/>
         <div className="LoginFrom">
           <div className="SubLogin">
             <div className="hi">
@@ -105,7 +110,7 @@ class App extends Component {
             </div>
 
             <div className="button">
-              <button onClick={() => this.submitEvent()}>Submit</button>
+              <button className="submit-button" onClick={() => this.submitEvent()}>Submit</button>
             </div>
           </div>
         </div>
@@ -130,7 +135,7 @@ class App extends Component {
   };
 
   /**
-   * Sending a post request to a local SqLite database 
+   * Sending a post request to a local SQLite database 
    */
 
   async post_r() {
@@ -164,7 +169,9 @@ class App extends Component {
 
       super.setState({ data: this.queryData });
     } catch (error) {
-      // In case of a POST request error (no results in array), browser alerts user to do refresh and change query
+      /* In case of a POST request error (no results in array), browser 
+       * alerts user to do refresh and change query
+       */
       alert(
         "Unfortunately, no attractions match your search. Click 'OK' to refresh page"
       );
@@ -199,8 +206,12 @@ class App extends Component {
     } else {
       return (
         <div>
+         <div className = "header">
           <h1 className="main-header">Your Suggested Attractions...</h1>
-          {/* Use the createCard() inside the map() function to create attraction card from the JSON array 'this.queryData' */}
+          <button className="refresh-button" onClick={refreshPage}>Main Menu</button>
+         </div>
+          {/* Use the createCard() inside the map() function to create 
+          attraction card from the JSON array 'this.queryData' */}
           {this.queryData?.map(createCard)} 
         </div>
       );

@@ -12,8 +12,12 @@
   --img-height: 80vh;
 }
 
+.header {
+  display: flex;
+}
 
-button{
+
+.submit-button{
 margin-top: 2em;  
 font-family: 'Montserrat', sans-serif;
   font-size: 20px;
@@ -26,13 +30,31 @@ font-family: 'Montserrat', sans-serif;
   padding: 1%;
 }
 
+.refresh-button{  
+  font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border-radius: 6px;
+    background: #008cff;
+    color: white;
+    border-width: 0;
+    width: 200px;
+    padding: 1%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    position: absolute;
+        top: 30px;
+        right: 30px;
+  }
+
 button:hover {
 background: #4e27ff;
 color:#ffffff;
 }
 
 html{
-background-color: #ecfdf3;
+background-color: #eeecfd;
 background-repeat: no-repeat, no-repeat;
 background-size: cover;
 background-position: right top;
@@ -45,10 +67,10 @@ height: 23px;
 position: relative;
 background-color: #ffffff;
 color: rgb(0, 0, 0);
-border-style: double;
+border-style: dashed;
 margin-left: 10px;
 font-size: 15px;
-width: 90px;
+width: 130px;
 }
 
 .category{
@@ -163,6 +185,7 @@ a {
   font-style: italic;
   animation-duration: 2s;
   animation-name: slidein;
+  display: inline-flex;
 }
 
 .Bridge {
@@ -174,4 +197,5 @@ a {
   margin-top: 2.4%;
   margin-right: 5%;
   height: var(--card-height);
+  width: 60%;
 }

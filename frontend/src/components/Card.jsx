@@ -4,7 +4,8 @@ import "./css/card.css";
 /**
  * 
  * @param {*} props 
- * @returns card component which has all the useful information needed. Using react props to get data after filtering
+ * @returns card component which has all the useful information needed. 
+ * Using react props to get data after filtering
  */
 
 function Card (props) {
