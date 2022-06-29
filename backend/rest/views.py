@@ -26,14 +26,23 @@ db = []
 # Create your views here.
 #@api_view(['GET'])
 
+class InputView(viewsets.ModelViewSet):
+    serializer_class = InputSerializer
+    queryset = InputField.objects.all()
+
+class AttractionView(viewsets.ModelViewSet):
+    serializer_class = AttractionSerializer
+    queryset = Attractions.objects.all()
+
 def dbloc(request):
-#    return HttpResponse(dT, content_type='application/json')
     if request.method == 'GET':
+
         attractions = Attractions.objects.all()
         serializer = AttractionSerializer(attractions, many=True)
         return JsonResponse(serializer.data, safe=False)
 
     elif request.method == 'POST':
+        
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)   
 
 @api_view(['GET'])
@@ -50,7 +59,8 @@ def Call(request):
     recieved = request.data
     recieved_json = json.dumps(recieved, indent=4)
     recieved_serializer = InputSerializer(data=recieved)
-    print(recieved)
+
+#    print(recieved)
     
     if recieved_serializer.is_valid():
 
@@ -86,10 +96,3 @@ def json_rd(request):
 
     return JsonResponse(db, safe=False)
 
-class InputView(viewsets.ModelViewSet):
-    serializer_class = InputSerializer
-    queryset = InputField.objects.all()
-
-class AttractionView(viewsets.ModelViewSet):
-    serializer_class = AttractionSerializer
-    queryset = Attractions.objects.all()

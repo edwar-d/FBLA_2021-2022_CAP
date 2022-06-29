@@ -3,15 +3,6 @@ from rest.models import Attractions
 from rest.models import InputField
 from rest.serializers import AttractionSerializer
 
-'''''
-{
-    "city":"San Francisco",
-    "rating":"false",
-    "guided_tours":"false",
-    "number_of_reviews":"1-10",
-    "type_of":"Restaurant"
-}
-'''
 
 def Process(data):
     inP = InputField(
@@ -24,13 +15,10 @@ def Process(data):
 
     inP.save()
 
-    oP =Attractions.objects.all()
-            # .filter(loc      = (inP.city+", CA"))
-            # .filter(type_of  =inP.type_of)
-            # .filter(tour=inP.guided_tours)
+    oP = Attractions.objects.all()
 
     if(data["city"] != "Select"):
-        oP = oP.filter(loc      = (inP.city+", CA"))
+        oP = oP.filter(loc = (inP.city+", CA"))
 
     if(data["number_of_reviews"] != "Select"):
         oP = oP.filter(review_category  =inP.number_of_reviews)
@@ -47,28 +35,27 @@ def Process(data):
         elif(data["guided_tours"] == "Yes"):
             oP = oP.filter(tour=True)
 
-    oP = list(oP)
 
 
-    # if(data["rating"]!="Select"):
-    #     if(data["rating"] == "false"):
-    #         data["rating"] = False
-    #     else:
-    #         data["rating"] = True
+    if(data["rating"]=="Sort by Highest"):
+        try:
+            oP = oP.order_by('star_rating')
+        except IndexError:
+            pass
 
+    inP.save()
 
-    print(data)
-
-
-    inP.save();
-    print(oP)
-        
     ids = []
 
     for i in range(len(oP)):
         ids.append(oP[i].id)
 
+    if(data["rating"]=="Sort by Highest"):
+        ids.reverse()   
+        ids.append(ids.pop(0))
+
     return ids
+
 
 
 def attractionToDictionary(id):
