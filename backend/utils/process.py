@@ -52,7 +52,8 @@ def Process(data):
 
     if(data["rating"]=="Sort by Highest"):
         ids.reverse()   
-        ids.append(ids.pop(0))
+        if(len(ids) > 0):
+            ids.append(ids.pop(0))
 
     return ids
 
