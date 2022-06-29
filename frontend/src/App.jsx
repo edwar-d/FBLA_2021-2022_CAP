@@ -4,6 +4,16 @@ import React, { Component } from "react";
 import Card from "./components/Card";
 import Bridge from "./components/ggb.jpg"
 
+
+let helpWindow;
+let empty = false;
+
+function helpWin() 
+{
+  helpWindow = window.open("https://digitalcigarettes.github.io/pages/help.html", "","width=500,height=500");
+}
+
+
 // Function creates an attraction Card using the Card.jsx component
 function createCard(tourist) {
   // Returns a Card component with the specified React properties
@@ -23,7 +33,8 @@ function createCard(tourist) {
   );
 }
 
-class App extends Component {
+class App extends Component 
+{
   constructor() {
     super();
     this.state = JSON.parse(window.localStorage.getItem("state")) || {
@@ -40,8 +51,8 @@ class App extends Component {
      */
 
     this.initial_defPage = (
-      
       <div className="Image">
+{/* //      <button onClick={helpWin}>help</button> */}
       <img src={Bridge} className = "Bridge"/>
         <div className="LoginFrom">
           <div className="SubLogin">
@@ -160,16 +171,14 @@ class App extends Component {
       this.queryData = JSON.parse(
         res.data.replaceAll("'", "")
       );
-      console.log(this.queryData);
+
 
       super.setState({ data: this.queryData });
     } catch (error) {
       // In case of a POST request error (no results in array), browser alerts user to do refresh and change query
-      alert(
-        "Unfortunately, no attractions match your search. Click 'OK' to refresh page"
-      );
-      window.location.reload(false);
+      empty = true;
     }
+
   }
 
   /**
@@ -194,9 +203,17 @@ class App extends Component {
   };
 
   render() {
+    console.log(empty);
     if (this.state.optionRender === false) {
       return this.initial_defPage;
-    } else {
+    } else if(empty){
+      console.log("in");
+      return(
+        <div>
+          <h1 className="main-header">Nothing</h1>
+        </div>
+      )
+    }else{
       return (
         <div>
           <h1 className="main-header">Your Suggested Attractions...</h1>
