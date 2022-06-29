@@ -3,6 +3,7 @@ import axios from "axios";
 import React, { Component } from "react";
 import Card from "./components/Card";
 import Bridge from "./components/ggb.jpg"
+import lostTourist from "./components/losttourist.png"
 
 
 let helpWindow;
@@ -21,6 +22,7 @@ function createCard(tourist) {
     <Card
       key={tourist.name} // Setting name as the unique key property
       img={tourist.img_url}
+      type_of={tourist.type_of}
       name={tourist.name}
       loc={tourist.loc}
       address={tourist.address}
@@ -212,8 +214,10 @@ class App extends Component {
     } else if(empty){
       console.log("in");
       return(
-        <div>
-          <h1 className="main-header">Nothing</h1>
+        <div className="no-results">
+          <img src={lostTourist} alt="lost tourist" className = "tourist-image"/>
+          <h1 className="unmain-header">Unfortunately, there were no results which match your desires :(</h1>
+          <button className="lost-refresh-button" onClick={refreshPage}> Return to Main Menu</button>
         </div>
       )
     }else{
