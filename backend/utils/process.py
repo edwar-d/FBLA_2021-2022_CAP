@@ -16,6 +16,7 @@ def Process(data):
     inP.save()
 
     oP = Attractions.objects.all()
+    
 
     if(data["city"] != "Select"):
         oP = oP.filter(loc = (inP.city+", CA"))
@@ -79,6 +80,8 @@ def attractionToDictionary(id):
     dictionary["review_category"] = attraction.review_category
     dictionary["tour"] = str(attraction.tour).lower()
     dictionary["img_url"] = attraction.img_url
+
+    dictionary["gmaps"] = attraction.gmaps
     
 
     # if("\\u2026" in attraction.website):

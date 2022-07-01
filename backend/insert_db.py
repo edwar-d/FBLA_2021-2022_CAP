@@ -4,7 +4,7 @@ import time
 from rest.models import Attractions
 
 def run():
-    df = pd.read_csv("./utils/datawithimg.csv").to_dict()
+    df = pd.read_csv("./utils/data.csv").to_dict()
 #name,type,loc,website,open_time,address,number,reviews,star_rating,tour,review_category
 
     for i in range(74):
@@ -20,6 +20,7 @@ def run():
         tour              = df['tour'][i]
         review_category   = df['review_category'][i]
         img_url           = df['img'][i]
+        gmaps             = df['gmaps'][i]
 
         
         if("y" in tour or "Y" in tour):
@@ -40,7 +41,8 @@ def run():
             star_rating=star_rating,
             tour = tour,
             review_category =  review_category,
-            img_url = img_url
+            img_url = img_url,
+            gmaps = gmaps
 
         )
 
@@ -48,7 +50,7 @@ def run():
 
         print("------------------------------------")
         print("FINISHED : ", i+1)
-        print( name,type_s,loc,website,open_time,address,number,reviews,star_rating)
+        print( name,type_s,loc,website,open_time,address,number,reviews,star_rating,tour,review_category,img_url,gmaps)
         print("------------------------------------")
         
 

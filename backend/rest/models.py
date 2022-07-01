@@ -27,8 +27,8 @@ class Attractions(models.Model):
 #    tour               = models.CharField(max_length=100, default='')
     review_category    = models.CharField(max_length=100, default='')
     tour               = models.BooleanField()
-    img_url           = models.URLField(max_length =1000)
-
+    img_url            = models.URLField(max_length =1000, default='')
+    gmaps              = models.URLField(max_length =1000, default='')
 
 
     def _str_(self):
