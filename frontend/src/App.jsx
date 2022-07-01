@@ -5,15 +5,8 @@ import Card from "./components/Card";
 import Bridge from "./components/ggb.jpg"
 import lostTourist from "./components/losttourist.png"
 
-
-let helpWindow;
 let empty = false;
-
-function helpWin()
-{
-  helpWindow = window.open("https://digitalcigarettes.github.io/pages/help.html", "","width=500,height=500");
-}
-
+let queuelength = 0;
 
 // Function creates an attraction Card using the Card.jsx component
 function createCard(tourist) {
@@ -31,6 +24,7 @@ function createCard(tourist) {
       times={tourist.open_time}
       rating={tourist.star_rating}
       reviews={tourist.reviews}
+      gmaps={tourist.gmaps}
     />
   );
 }
@@ -177,6 +171,7 @@ class App extends Component {
         res.data.replaceAll("'", "")
       );
 
+      queuelength = this.queryData.length;
 
       super.setState({ data: this.queryData });
     } catch (error) {
@@ -224,7 +219,7 @@ class App extends Component {
       return (
         <div>
          <div className = "header">
-          <h1 className="main-header">Your Suggested Attractions...</h1>
+          <h1 className="main-header">Your Suggested Attractions... ({queuelength} Results)</h1>
           <button className="refresh-button" onClick={refreshPage}>Main Menu</button>
          </div>
           {/* Use the createCard() inside the map() function to create

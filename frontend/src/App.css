@@ -84,6 +84,7 @@ font-family: 'Montserrat', sans-serif;
 button:hover {
 background: #4e27ff;
 color:#ffffff;
+transform: scale(1.05);
 }
 
 html{
@@ -214,7 +215,7 @@ a {
   font-family: 'Montserrat', sans-serif;
   color: rgb(0, 0, 0);
   margin-left: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   font-style: italic;
   animation-duration: 2s;
   animation-name: slidein;

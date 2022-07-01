@@ -3,8 +3,12 @@ from rest.models import Attractions
 from rest.models import InputField
 from rest.serializers import AttractionSerializer
 
+#Main filtering function; Takes in Json datatype of data from views.py
 
 def Process(data):
+
+    #Input Data aquired and parsed from the front end
+
     inP = InputField(
         city=data["city"],
         rating=data["rating"],
@@ -17,6 +21,9 @@ def Process(data):
 
     oP = Attractions.objects.all()
     
+
+    #If then conditional statements to filter many different values
+    #filters of city, number of reviews, etc
 
     if(data["city"] != "Select"):
         oP = oP.filter(loc = (inP.city+", CA"))
@@ -37,6 +44,7 @@ def Process(data):
             oP = oP.filter(tour=True)
 
 
+    #Sorting datastream via rating(If requested by the user)
 
     if(data["rating"]=="Sort by Highest"):
         try:
@@ -48,14 +56,18 @@ def Process(data):
 
     ids = []
 
+    #iterate through datastream to sort content
+
     for i in range(len(oP)):
-        ids.append(oP[i].id)
+        if(oP[i].name != "Foothill Crossing Shopping"):
+            ids.append(oP[i].id)
 
     if(data["rating"]=="Sort by Highest"):
         ids.reverse()   
         if(len(ids) > 0):
             ids.append(ids.pop(0))
 
+    #return all sorted and filtered values
     return ids
 
 
