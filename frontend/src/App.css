@@ -243,13 +243,13 @@ a {
 
   font-size: 16pt;
   font-family: tahoma;
-  color:#B19CD8;
+  color:#ffffff;
 
   margin-top: 2%;
   margin-right: 2%;
-  background-color:  transparent;
+  background-color:  #6e9dc4;
   position:absolute;
-  border-color: white;
+  border: 0;
   top:0;
   right:0;
 }
@@ -257,5 +257,6 @@ a {
 .helpButton:hover
 {
   color:white;
-  background-color: gray;
+  background-color: #4e27ff;
+  transform: scale(1.10);
 }

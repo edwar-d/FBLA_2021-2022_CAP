@@ -37,8 +37,8 @@ function refreshPage() {
 let win;
 function gethelp()
 {
-  win = window.open("https://digitalcigarettes.github.io/pages/help.html", "", "width=500,height=500");
-  //https://digitalcigarettes.github.io/pages/help.html
+  win = window.open("https://arnavnc.github.io/help.html", "", "width=500,height=500");
+  //https://arnavnc.github.io/help.html
 }
 
 class App extends Component {
@@ -112,7 +112,7 @@ class App extends Component {
             </div>
 
             <div className="category">
-              <label htmlFor="numOfReviews"> Number of Reviews: </label>
+              <label htmlFor="numOfReviews"> Review Count: </label>
               <select name="numOfReviews" id="numOfReviews">
                 <option value="op_1">Select</option>
                 <option value="op_2">1-10</option>
