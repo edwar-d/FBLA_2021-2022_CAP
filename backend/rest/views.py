@@ -51,8 +51,10 @@ def Receive(request):
 
     return HttpResponse(str(db), content_type='application/json')
 
-@api_view(['POST'])
+#Main API header function
+#Accepts the request from the Frontend React Database
 
+@api_view(['POST'])
 def Call(request):
     global db
 
@@ -60,8 +62,7 @@ def Call(request):
     recieved_json = json.dumps(recieved, indent=4)
     recieved_serializer = InputSerializer(data=recieved)
 
-#    print(recieved)
-    
+    #Checking for Validity
     if recieved_serializer.is_valid():
 
         print("--------------------------")

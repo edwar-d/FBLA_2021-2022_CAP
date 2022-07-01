@@ -2,19 +2,10 @@
 from django.db import models
 # Create your models here.
 
-# name
-# type
-# loc
-# website
-# open_time
-# address
-# number
-# reviews
-# star_rating
-#{"city":"San Francisco","rating":"false","guided_tours":"false","number_of_reviews":"1-10","type_of":"Restaurant"}
-
+#Attraction card Models for SQLite Database
+#Contains all of the different fields in the attraction card 
 class Attractions(models.Model):
-
+    #Field Values in SQL Database
     name               = models.CharField(max_length=100, default='')
     type_of            = models.CharField(max_length=100, default='')
     loc                = models.CharField(max_length=200, default='')

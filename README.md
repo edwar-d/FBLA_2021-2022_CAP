@@ -1,28 +1,39 @@
-## Coding and Programming Tourist Attraction Application ##
+***DOCUMENTATION***
 
-Arnav Chakravarthy, Kartik Joshi, Edward Lu, Homestead High School (10th)
+**Python Setup:**
+Windows: <https://phoenixnap.com/kb/how-to-install-python-3-windows>
+MacOS: <https://medium.com/geekculture/installing-python-3-x-development-environment-on-macos-a64c0141b20c>
+
+**NodeJs and React:** <https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/>
+
+**Github:** <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
+
+**Clone Repository:**
+
+```
+git clone https://github.com/VeganBurg/FBLA_2021-2022_CAP.git
+```
+**Install Dependencies**
+
+(Directory: ../FBLA_2021-2022_cap/backend/):
+```
+pip install -r requirements.txt
+```
+
+(Directory: ..FBLA_2021-2022_CAP\frontend\src )
+```
+Run: npm install react
+```
+Run Backend and Front End Servers(Run in two different terminals)
 
 
-### Installation Instructions: ###
+In the directory: ..\FBLA_2021-2022_CAP\backend
+```
+Run: python manage.py runserver
+```
 
-[ADD]
+In the directory: ..FBLA_2021-2022_CAP\frontend\src
+```
+Run: npm start
+```
 
-### Description: ###
-
-This application acts as a search and suggest apparatus for users to find attractions in the Bay Area. Users can search for a specific location from a database of 700 attractions, or use search filters to help narrow down their desired location. As they search/narrow their filters, the grid of results on the bottom refreshes to match their queries. Each attraction card has relevant output attributes linked to it, such as: website link, phone number, rating score, number of reviews, times open, etc.
-
-### Features: ###
-- Search through a database of 700 locations
-- Use input parameters to customize your output reports
-  - Allows users to find a list of desired attractions
-- Update your attraction results in real-time every time you update your query
-  - Attraction results include several output metrics about each attraction
-    - Metrics include address, phone number, website link, ratings, number of ratings, as well as the location
-
-### Future Enhancements: ###
-
-This app can be enhanced by adding user accounts, such that users can save preferred locations. We can also add direction links on Google Maps, so that users can open directions to the location in one click. We can also vertically scale our database of attractions, by expanding to different regions in California using our Python web-scraper.
-
-### Source Code Information: ###
-
-[ADD]
