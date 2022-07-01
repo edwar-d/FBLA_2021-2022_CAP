@@ -10,7 +10,7 @@
   --card-height: 75vh;
   --card-width: calc(var(--card-height) / 2);
   --img-height: 80vh;
-}
+} 
 
 .header {
   display: flex;

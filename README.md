@@ -37,3 +37,8 @@ In the directory: ..FBLA_2021-2022_CAP\frontend\src
 Run: npm start
 ```
 
+Dyamic backup
+```
+python manage.py dbrestore
+python manage.py migrate
+```
