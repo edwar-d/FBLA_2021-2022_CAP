@@ -8,3 +8,4 @@ backend/venv/
 backend/db.sqlite3
 *.sqlite3
 *.sqlite3
+*.sqlite3
