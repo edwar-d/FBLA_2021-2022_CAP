@@ -8,6 +8,13 @@ MacOS: <https://medium.com/geekculture/installing-python-3-x-development-environ
 
 **Github:** <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
 
+**Dynamic Backup**
+In the the /backend directory, run the following commands:
+```
+python manage.py dbrestore
+python manage.py migrate
+```
+
 **Clone Repository:**
 
 ```
@@ -37,8 +44,3 @@ In the directory: ..FBLA_2021-2022_CAP\frontend\src
 Run: npm start
 ```
 
-Dyamic backup
-```
-python manage.py dbrestore
-python manage.py migrate
-```
