@@ -7,6 +7,7 @@ import lostTourist from "./components/losttourist.png"
 
 let empty = false;
 let queuelength = 0;
+let needhelp = false;
 
 // Function creates an attraction Card using the Card.jsx component
 function createCard(tourist) {
@@ -33,6 +34,13 @@ function refreshPage() {
   window.location.reload(false);
 }
 
+let win;
+function gethelp()
+{
+  win = window.open("https://digitalcigarettes.github.io/pages/help.html", "", "width=500,height=500");
+  //https://digitalcigarettes.github.io/pages/help.html
+}
+
 class App extends Component {
   constructor() {
     super();
@@ -49,9 +57,10 @@ class App extends Component {
      * Creating the initial loaded page for our website with the login form
      * Selection form for search query
      */
-
-    this.initial_defPage = (
+    this.menu = 
+    (
       <div className="Image">
+      <button className="helpButton" onClick={gethelp} >?</button>
       <img src={Bridge} alt="Golden Gate Bridge" className = "Bridge"/>
         <div className="LoginFrom">
           <div className="SubLogin">
@@ -204,8 +213,18 @@ class App extends Component {
 
   render() {
     console.log(empty);
+    // if(needhelp)
+    // {
+    //   return(
+    //     <div className="no-results">
+    //       <img src={lostTourist} alt="lost tourist" className = "tourist-image"/>
+    //       <h1 className="unmain-header">HELP MENU:</h1>
+    //       <button className="lost-refresh-button" onClick={refreshPage}> Return to Main Menu</button>
+    //     </div>
+    //   )
+    // }else 
     if (this.state.optionRender === false) {
-      return this.initial_defPage;
+      return this.menu;
     } else if(empty){
       console.log("in");
       return(
@@ -215,7 +234,7 @@ class App extends Component {
           <button className="lost-refresh-button" onClick={refreshPage}> Return to Main Menu</button>
         </div>
       )
-    }else{
+    }
       return (
         <div>
          <div className = "header">
@@ -229,7 +248,6 @@ class App extends Component {
         </div>
       );
     }
-  }
 }
 
 export default App;
