@@ -18,7 +18,7 @@ python manage.py migrate
 **Clone Repository:**
 
 ```
-git clone https://github.com/VeganBurg/FBLA_2021-2022_CAP.git
+git clone https://github.com/edwar-d/FBLA_2021-2022_CAP.git
 ```
 **Install Dependencies**
 
