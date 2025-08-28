@@ -1,0 +1,97 @@
+.attractions-grid-wrapper {
+  margin-top: 20px;
+
+  * {
+    box-shadow: none !important;
+  }
+
+  h2 {
+    color: rgba(10, 17, 33);
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+
+  .attractions-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 16px;
+  }
+
+  .wide-grid-item,
+  .grid-item {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .map-div {
+    height: 100%;
+    width: 100%;
+  }
+  .collapse {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .show {
+    opacity: 1;
+  }
+  .map-div * {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+  }
+
+  #attraction-carousel-button {
+    position: absolute;
+    bottom: 0;
+    right: 8px;
+    z-index: 1;
+    opacity: 0.7;
+    background: linear-gradient(123deg, #dbf705, #ffaba7);
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+  #attraction-carousel-button:hover {
+    opacity: 1;
+  }
+  .carousel-item {
+    margin-bottom: -2px;
+  }
+
+  .heading {
+    background-color: white;
+    padding: 0 16px;
+    border-radius: 32px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+  }
+  .carousel-inner {
+    border-radius: 8px !important;
+  }
+}
+
+.carousel-indicators {
+  margin-bottom: 8px !important;
+  border-color: white !important;
+  width: fit-content !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+.carousel-indicators > button {
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 2px !important;
+}
+.carousel-wrapper {
+  position: relative !important;
+}
+

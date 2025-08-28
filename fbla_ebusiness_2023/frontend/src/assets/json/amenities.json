@@ -1,0 +1,42 @@
+[
+    {
+        "key": 1,
+        "name": "Free WiFi",
+        "description": "Stay connected with our free WiFi."
+    }, 
+    {
+        "key": 2,
+        "name": "Free Parking",
+        "description": "Free parking is available for all guests."
+    }, 
+    {
+        "key": 3,
+        "name": "Free Breakfast",
+        "description": "Enjoy a free breakfast each morning."
+    }, 
+    {
+        "key": 4,
+        "name": "Free Shuttle",
+        "description": "Free shuttle service to and from the airport."
+    }, 
+    {
+        "key": 5,
+        "name": "Fitness Center",
+        "description": "Maintain your workout routine with our fully equipped fitness center."
+    }, 
+    {
+        "key": 6,
+        "name": "Outdoor Pool",
+        "description": "Take a refreshing dip in our outdoor pool."
+    }, 
+    {
+        "key": 7,
+        "name": "24-Hour Room Service",
+        "description": "Order room service anytime, day or night."
+    }, 
+    {
+        "key": 8,
+        "name": "Business Center",
+        "description": "Stay productive with our fully equipped business center."
+    }
+]

@@ -1,0 +1,47 @@
+.book-wrapper {
+  overflow:hidden !important;
+  
+  .mcontainer {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/imgs/misc/booking_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+  }
+
+  .ss_logo {
+    position: absolute;
+    margin-left: 20px !important;
+    margin-top: 0px !important;
+    left: 0;
+    top: 0;
+
+    font-weight: bold;
+    color: white !important;
+    font-size: 40px;
+
+    text-shadow: 1px 1px 2px red, 0 0 1em rgb(224, 224, 227),
+      0 0 0.2em rgb(115, 115, 135);
+  }
+
+  .dateRanger {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 62%;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 700px;
+    width: min-content;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 10px 50px 18px #0004;
+
+    z-index: 3;
+  }
+}

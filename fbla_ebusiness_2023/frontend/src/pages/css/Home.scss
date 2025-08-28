@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:wght@400;600;700&family=Unbounded:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Montserrat:wght@200;300&family=Nunito:wght@300&family=PT+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.homepage-wrapper {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .intro {
+    background-image: url("../../assets/imgs/misc/intro-bg.jpg");
+    /* background-size: contain; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    height: 95vh !important;
+    text-align: center;
+    background-position: 10% 0% !important;
+  }
+
+  .lbtl {
+    position: absolute;
+    font-family: "Gambetta", serif;
+  }
+
+  .t1 {
+    top: 40%;
+    left: 10%;
+  }
+
+  .t2 {
+    top: 42%;
+    left: 10%;
+  }
+
+  .logo {
+    position: absolute;
+    height: 20%;
+    left: 50%;
+    margin: 35vh 0; //20
+    transform: translate(-50%, -50%);
+  }
+
+  #scroll-down-animation {
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: scale(0.8) translate(-50%, -50%) !important;
+  }
+
+  #scroll-down-animation h2 {
+    font-family: "Kanit", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .mouse {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50px;
+    border: 3px solid #ffffff;
+    height: 100px;
+    width: 50px;
+    position: relative;
+  }
+
+  .move {
+    position: absolute;
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: move 2s linear infinite;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translate(-50%, 10px);
+      opacity: 0;
+    }
+    50% {
+      transform: translate(-50%, 40px);
+      opacity: 1;
+    }
+    100% {
+      transform: translate(-50%, 80px);
+      opacity: 0;
+    }
+  }
+
+  // ---- this is the main content ----
+  .about {
+    overflow-x: hidden !important;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    padding-top: 4%;
+    align-content: center;
+    text-align: center;
+
+    // background-color: rgba(243, 244, 245);
+  }
+
+  .advc {
+    margin-top: -3%;
+    position: absolute;
+    width: 74%;
+    margin-left: 13%;
+    padding-top: 1%;
+    height: 12%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .advc-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .advc h1 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: "Gambetta", serif;
+    letter-spacing: 1px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    color: rgb(244, 235, 131);
+    // padding-left: 10%;
+    outline: none;
+    padding-right: 4%;
+  }
+
+  // .advc h1:hover {
+  //   font-variation-settings: "wght" 582;
+  //   letter-spacing: 1px;
+  // }
+
+  .advc:hover span {
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position 0.7s, background-size 0.5s ease-in-out;
+  }
+
+  // .advc:hover {
+  //   box-shadow: 1px 5px 20px 9px #0004;
+  // }
+
+  .book-button {
+    font-family: "Bebas Neue", cursive;
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: background-size 0.7s, background-position 0.5s ease-in-out;
+    color: black;
+  }
+
+  #redirectb2 {
+    text-decoration: none !important;
+    margin-left: 4px;
+
+    * {
+      padding: 0 4px;
+    }
+  }
+
+  // ----------------------------------
+
+  // .roominfo {
+  //   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  //     url("../../assets/imgs/rooms/pexels-pixabay-358375.jpg");
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   grid-column-start: 1;
+  //   grid-column-end: 5;
+  //   grid-row-start: 1;
+  //   grid-row-end: 9;
+  //   display: table-cell !important;
+
+  //   text-align: center !important;
+  //   vertical-align: middle !important;
+  //   opacity: 1.7;
+  // }
+
+  // .textblob {
+  //   font-family: "Cedarville Cursive", cursive;
+
+  //   display: inline-block !important;
+  //   position: relative;
+  //   font-size: 32px;
+  //   color: white;
+  //   transform: translate(-0%, 50%);
+  //   margin-left: 20px;
+  //   margin-right: 20px;
+  //   font-size: 14;
+  // }
+
+  // .roomdes {
+  //   grid-column-start: 5;
+  //   grid-column-end: 9;
+
+  //   grid-row-start: 4;
+  //   grid-row-end: 6;
+  //   border-right: 3px solid;
+  //   font-family: "Nunito", sans-serif;
+  // }
+
+  // .roomdes h1 {
+  //   color: black;
+  //   margin-top: 5vh;
+  // }
+
+  // .roompic1 {
+  //   background: url("../../assets/imgs/rooms/ExRoom1.png");
+  //   background-position: bottom;
+  //   grid-column-start: 5;
+  //   grid-column-end: 9;
+  //   grid-row-start: 1;
+  //   grid-row-end: 4;
+  // }
+
+  // .roompic2 {
+  //   background: url("../../assets/imgs/rooms/Room3.png");
+  //   background-position: bottom;
+  //   background-size: cover;
+  //   background-repeat: no-repeat;
+  //   grid-column-start: 5;
+  //   grid-column-end: 9;
+  //   grid-row-start: 6;
+  //   grid-row-end: 9;
+  // }
+}
